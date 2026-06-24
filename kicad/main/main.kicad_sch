@@ -364,6 +364,526 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EasyEDA_Lib:FNR6045S680MT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "68uH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:IND-SMD_L6.0-W6.0_FNR60XXS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190327/C167925_9EFF0AABC4CA629C2CC95961DBF7D39D.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductance: Tolerance:±20% Tolerance:±20% Rated Current: Saturation Current (Isat):1.3A DC Resistance (DCR):376mΩ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "FNR6045S680MT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "cjiang(长江微电)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C168091"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "68uH ±20% 1.3A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FNR6045S680MT_1_0"
+				(polyline
+					(pts
+						(xy -4.2672 0) (xy -4.2164 0.4064) (xy -4.2164 0.4064) (xy -4.0132 0.762) (xy -4.0132 0.762) (xy -3.6576 1.016)
+						(xy -3.6576 1.016) (xy -3.2512 1.0922) (xy -3.2512 1.0922) (xy -2.8702 1.016) (xy -2.8702 1.016)
+						(xy -2.5146 0.762) (xy -2.5146 0.762) (xy -2.3114 0.4064) (xy -2.3114 0.4064) (xy -2.2606 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.1082 0) (xy -2.0828 0.4064) (xy -2.0828 0.4064) (xy -1.8542 0.762) (xy -1.8542 0.762) (xy -1.4986 1.016)
+						(xy -1.4986 1.016) (xy -1.1176 1.0922) (xy -1.1176 1.0922) (xy -0.7112 1.016) (xy -0.7112 1.016)
+						(xy -0.3556 0.762) (xy -0.3556 0.762) (xy -0.1524 0.4064) (xy -0.1524 0.4064) (xy -0.1016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.0508 0.4064) (xy 0.0508 0.4064) (xy 0.2794 0.762) (xy 0.2794 0.762) (xy 0.6096 1.016)
+						(xy 0.6096 1.016) (xy 1.016 1.0922) (xy 1.016 1.0922) (xy 1.4224 1.016) (xy 1.4224 1.016) (xy 1.7526 0.762)
+						(xy 1.7526 0.762) (xy 1.9812 0.4064) (xy 1.9812 0.4064) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.2098 0) (xy 2.2352 0.4064) (xy 2.2352 0.4064) (xy 2.4638 0.762) (xy 2.4638 0.762) (xy 2.8194 1.016)
+						(xy 2.8194 1.016) (xy 3.2004 1.0922) (xy 3.2004 1.0922) (xy 3.6068 1.016) (xy 3.6068 1.016) (xy 3.9624 0.762)
+						(xy 3.9624 0.762) (xy 4.1656 0.4064) (xy 4.1656 0.4064) (xy 4.2164 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 0.762)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 0.762)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Diodes:Schottky,SS14"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 2.032 0.834 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SS14"
+				(at 2.032 -1.2122 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:D_SMA"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "40V Independent Type 1A 550mV@1A SMA(DO-214AC) Schottky Diodes ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2480"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Stock" "1115112"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.018USD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Minimum Qty" "5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "MDD（Microdiode Electronics）"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "SS14"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rectified Current" "1A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Forward Voltage (Vf@If)" "550mV@1A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Reverse Voltage (Vr)" "40V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Diode Configuration" "Independent Type"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Reverse Leakage Current (Ir)" "300uA@40V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Schottky,SS14_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27) (xy -1.27 -1.27) (xy -1.27 -0.635) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Schottky,SS14_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power global)
 			(pin_numbers
@@ -620,70 +1140,266 @@
 		)
 	)
 	(junction
-		(at 80.01 104.14)
+		(at 74.93 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "00c38aac-cd82-4aad-a7dc-c10b450d9031")
+		(uuid "1584b0ea-4866-414d-81c1-7981b24be209")
 	)
 	(junction
-		(at 110.49 80.01)
+		(at 74.93 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "12822cd2-ca1b-4aae-bd7f-4d40adbc0aac")
+		(uuid "19f8f394-0dbe-4637-9460-21b7a7e293ef")
 	)
 	(junction
-		(at 80.01 66.04)
+		(at 82.55 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fc62470-fed9-4ec3-986c-7f190cad843a")
+	)
+	(junction
+		(at 107.95 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "290fde60-1a79-4a19-a4c7-b434d7affa00")
+	)
+	(junction
+		(at 82.55 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30cf3703-fe7e-4682-bcc7-44c52c1377ed")
+	)
+	(junction
+		(at 110.49 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38c8e2ec-f7e1-4f8d-afcd-eba1972ec257")
+	)
+	(junction
+		(at 74.93 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4128dc5d-5def-4676-8062-e7b1b2bcd4f1")
+	)
+	(junction
+		(at 74.93 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4143fdb3-b360-40fe-adcb-17c57bfbd0de")
+	)
+	(junction
+		(at 74.93 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4680aa00-fd50-4a59-85af-db8d39566ee9")
+	)
+	(junction
+		(at 74.93 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47e73d54-9f10-4f9c-af0c-896edac74247")
+	)
+	(junction
+		(at 74.93 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c311e86-dd0d-427b-8705-16d71c041875")
 	)
 	(junction
-		(at 110.49 99.06)
+		(at 74.93 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7c810c4e-5347-4b8d-8f94-317d4405dffc")
+		(uuid "615e0b71-9664-4e5b-b5a9-659c897ed8c5")
 	)
 	(junction
-		(at 110.49 118.11)
+		(at 107.95 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bf47bff9-ee7f-4aba-b64c-751c350313b6")
+		(uuid "64db3021-b4a0-4c53-b516-f4415c6866de")
 	)
 	(junction
-		(at 80.01 85.09)
+		(at 82.55 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "faa8a4e3-9a82-415d-9cd3-d97b753275ed")
+		(uuid "71da0330-ae8c-4fb1-9795-a6a9a773ff3a")
+	)
+	(junction
+		(at 74.93 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af586a9b-f4cf-4fd4-ae76-43d3d7640696")
+	)
+	(junction
+		(at 107.95 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbece17f-3d46-4b9e-8a67-0270006fbdea")
+	)
+	(junction
+		(at 107.95 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfea36c8-4539-422c-bcd3-f86d61d4fcea")
+	)
+	(junction
+		(at 82.55 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c220a975-469e-4385-84e1-47196ababf7a")
+	)
+	(junction
+		(at 110.49 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2ca4c63-f7a6-4854-821b-5e0a7d119e36")
+	)
+	(junction
+		(at 74.93 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7936a9a-f0d4-41ec-80f6-7ade7d33b9ab")
+	)
+	(junction
+		(at 74.93 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da341ae3-2cf2-4405-84e5-36edf24b5ca3")
+	)
+	(junction
+		(at 110.49 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd456e1c-08d0-4717-9e75-d680958b7c29")
 	)
 	(wire
 		(pts
-			(xy 82.55 123.19) (xy 80.01 123.19)
+			(xy 127 124.46) (xy 121.92 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12746a87-c4e8-4ad9-8f18-80a7b4f63dcc")
+		(uuid "05e34018-afcb-40fd-b215-d5ad45471195")
 	)
 	(wire
 		(pts
-			(xy 113.03 113.03) (xy 107.95 113.03)
+			(xy 127 66.04) (xy 121.92 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24e1d2bc-f4aa-4688-8d8f-01a866e34b58")
+		(uuid "0e392e5c-82c1-44d5-b62d-d3da8c1d0b3b")
 	)
 	(wire
 		(pts
-			(xy 110.49 99.06) (xy 110.49 118.11)
+			(xy 107.95 148.59) (xy 110.49 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28368ca0-7465-415f-8aa3-009100862363")
+		(uuid "116c91a9-e807-4bf8-aaa6-3619b01b4abb")
+	)
+	(wire
+		(pts
+			(xy 99.06 129.54) (xy 107.95 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13bb807d-cfa6-42fd-9108-0d727207ec16")
+	)
+	(wire
+		(pts
+			(xy 74.93 129.54) (xy 74.93 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "154290e4-9c8b-48d2-a47c-f108bdd17c4e")
+	)
+	(wire
+		(pts
+			(xy 74.93 135.89) (xy 74.93 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1dc594-e3ac-452f-af48-03f502fb5e9b")
+	)
+	(wire
+		(pts
+			(xy 107.95 129.54) (xy 107.95 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df3a121-240e-4979-b8c0-231dd1975ae1")
+	)
+	(wire
+		(pts
+			(xy 74.93 71.12) (xy 91.44 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b4ffe2-79ef-494e-b690-0c5f32b2975c")
+	)
+	(wire
+		(pts
+			(xy 72.39 95.25) (xy 74.93 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23dcbc83-88e1-494b-8450-ff44f7b8ca64")
+	)
+	(wire
+		(pts
+			(xy 107.95 100.33) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24fe414e-769b-4f88-8f96-a64c0b911136")
+	)
+	(wire
+		(pts
+			(xy 127 95.25) (xy 121.92 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2638596e-9769-4262-86bd-3e7e3515eb44")
+	)
+	(wire
+		(pts
+			(xy 107.95 153.67) (xy 111.76 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b73a4db-17ea-4334-9788-cb7cfb4b7123")
+	)
+	(wire
+		(pts
+			(xy 74.93 77.47) (xy 74.93 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9b49fb-f78c-4349-b8b8-02aabf6ecd7e")
 	)
 	(wire
 		(pts
@@ -697,6 +1413,46 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 119.38) (xy 110.49 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32290c15-6732-4d7a-b5b4-d160c811e4b6")
+	)
+	(wire
+		(pts
+			(xy 107.95 66.04) (xy 111.76 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "353fe5a8-eeee-4c0a-baa1-6071489a9b04")
+	)
+	(wire
+		(pts
+			(xy 82.55 135.89) (xy 82.55 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361c4949-4d68-4922-985e-bf3d7e90ce63")
+	)
+	(wire
+		(pts
+			(xy 113.03 114.3) (xy 107.95 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e591f2-9fd2-4fe2-9500-95a86655cccc")
+	)
+	(wire
+		(pts
 			(xy 107.95 60.96) (xy 110.49 60.96)
 		)
 		(stroke
@@ -707,67 +1463,157 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 93.98) (xy 107.95 93.98)
+			(xy 74.93 71.12) (xy 74.93 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41b61b4b-5166-4008-8838-bb27035261d8")
+		(uuid "4af0eacb-da3e-48db-ac69-8e80b6886a5c")
 	)
 	(wire
 		(pts
-			(xy 107.95 99.06) (xy 110.49 99.06)
+			(xy 74.93 153.67) (xy 74.93 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43805c54-4534-460a-b2c9-d122644c8314")
+		(uuid "5af01050-a704-4a83-835d-2f1407071637")
 	)
 	(wire
 		(pts
-			(xy 110.49 80.01) (xy 110.49 99.06)
+			(xy 72.39 153.67) (xy 74.93 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c8f7529-3332-4a7a-bc6d-286725232b4c")
+		(uuid "5af9c37c-2b42-42ee-8c88-a50a3c4fd2ac")
 	)
 	(wire
 		(pts
-			(xy 110.49 118.11) (xy 110.49 125.73)
+			(xy 127 153.67) (xy 121.92 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5642c0e7-f920-48ba-8381-68456938e208")
+		(uuid "649bbb24-9ee5-42ac-8931-5753f04c48ce")
 	)
 	(wire
 		(pts
-			(xy 107.95 80.01) (xy 110.49 80.01)
+			(xy 107.95 95.25) (xy 111.76 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ac568fc-4dca-480c-9d27-84d5460758eb")
+		(uuid "6ae3d69b-67b1-4762-9c7d-f0eaf29edb63")
 	)
 	(wire
 		(pts
-			(xy 113.03 74.93) (xy 107.95 74.93)
+			(xy 82.55 77.47) (xy 127 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85cbcd80-9b88-43ea-af00-7956ac3fdc9d")
+		(uuid "6bc2be6e-5c0e-47dc-b6eb-2972c9419908")
 	)
 	(wire
 		(pts
-			(xy 80.01 66.04) (xy 82.55 66.04)
+			(xy 82.55 106.68) (xy 82.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bc8efd7-8f60-490b-aee1-5867b5cb2474")
+	)
+	(wire
+		(pts
+			(xy 82.55 106.68) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf81273-8f5e-483f-ba43-64d9ba8fb355")
+	)
+	(wire
+		(pts
+			(xy 99.06 158.75) (xy 107.95 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8968f644-226c-4395-b5ad-a882bc911d66")
+	)
+	(wire
+		(pts
+			(xy 74.93 124.46) (xy 74.93 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef3c0a7-9962-45e6-babf-5bea3ee62ad1")
+	)
+	(wire
+		(pts
+			(xy 74.93 48.26) (xy 74.93 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a2ea02-2e2e-454e-9e13-521f7655803f")
+	)
+	(wire
+		(pts
+			(xy 74.93 158.75) (xy 91.44 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c038c3-5e86-4d1f-9b93-181bb2050ec9")
+	)
+	(wire
+		(pts
+			(xy 72.39 66.04) (xy 74.93 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944c3be8-108d-4d6c-9952-c78996b3fac1")
+	)
+	(wire
+		(pts
+			(xy 74.93 100.33) (xy 74.93 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95616a12-cb27-4ae7-b068-117fbd18183f")
+	)
+	(wire
+		(pts
+			(xy 107.95 158.75) (xy 107.95 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95cbb81b-cc0c-423e-8302-3fd1215ada7b")
+	)
+	(wire
+		(pts
+			(xy 74.93 66.04) (xy 82.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -777,17 +1623,37 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 85.09) (xy 80.01 66.04)
+			(xy 110.49 148.59) (xy 110.49 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac656130-d64f-4743-9839-7b421ba7735e")
+		(uuid "99c47a2b-abf9-4306-aba1-bdb2c76129ae")
 	)
 	(wire
 		(pts
-			(xy 80.01 50.8) (xy 80.01 66.04)
+			(xy 74.93 124.46) (xy 82.55 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa7a27f-fd78-41f4-bdf4-6ce5f8f3180a")
+	)
+	(wire
+		(pts
+			(xy 107.95 71.12) (xy 107.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bacbb98-bb00-41fc-b00c-862d944123dd")
+	)
+	(wire
+		(pts
+			(xy 74.93 43.18) (xy 74.93 48.26)
 		)
 		(stroke
 			(width 0)
@@ -797,27 +1663,37 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 104.14) (xy 80.01 85.09)
+			(xy 74.93 100.33) (xy 91.44 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b786d4b1-286b-4476-86ac-c22c22fcacc7")
+		(uuid "b40f445b-fe27-4380-a050-218352bbf3a1")
 	)
 	(wire
 		(pts
-			(xy 82.55 85.09) (xy 80.01 85.09)
+			(xy 74.93 95.25) (xy 82.55 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba6e3835-3cde-414f-bad5-3d322cdd2709")
+		(uuid "b9c57ad6-ed92-4077-9961-5aaf00c43a0f")
 	)
 	(wire
 		(pts
-			(xy 110.49 60.96) (xy 110.49 80.01)
+			(xy 74.93 129.54) (xy 91.44 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d91ac3-ffa0-4859-9e3d-1aff17e542d4")
+	)
+	(wire
+		(pts
+			(xy 110.49 60.96) (xy 110.49 90.17)
 		)
 		(stroke
 			(width 0)
@@ -827,37 +1703,177 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 118.11) (xy 110.49 118.11)
+			(xy 82.55 48.26) (xy 127 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de0c5e47-9ff1-4661-83de-abe0df03c829")
+		(uuid "cb86c9b6-9c67-44b3-8c15-9a43143a26d2")
 	)
 	(wire
 		(pts
-			(xy 80.01 104.14) (xy 82.55 104.14)
+			(xy 107.95 119.38) (xy 110.49 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef1b3479-3c60-4f07-9765-6832e3a1d1ed")
+		(uuid "ccac3aaa-1ca3-46c5-b0b0-0b288f8a8092")
 	)
 	(wire
 		(pts
-			(xy 80.01 123.19) (xy 80.01 104.14)
+			(xy 99.06 100.33) (xy 107.95 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f665426d-c833-4ea3-aca2-225d22c9e8ca")
+		(uuid "ce62582b-3a4e-4dad-adf8-f579b5f4238e")
+	)
+	(wire
+		(pts
+			(xy 107.95 124.46) (xy 111.76 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66deec4-16f4-4c2e-91bb-8f36dd2415dc")
+	)
+	(wire
+		(pts
+			(xy 110.49 90.17) (xy 110.49 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d745c5c8-6941-4026-8bee-1fc52b0777d7")
+	)
+	(wire
+		(pts
+			(xy 82.55 135.89) (xy 127 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc2fbeaf-fd97-4630-aad3-0e81410a12a6")
+	)
+	(wire
+		(pts
+			(xy 74.93 153.67) (xy 82.55 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc31a4e0-6dc7-46eb-8103-b83a37932bc8")
+	)
+	(wire
+		(pts
+			(xy 99.06 71.12) (xy 107.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd04a5ca-cc6e-498c-82dd-e95f6ecef9f4")
+	)
+	(wire
+		(pts
+			(xy 107.95 90.17) (xy 110.49 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e175b8e7-a004-4a11-850e-79601e77f82e")
+	)
+	(wire
+		(pts
+			(xy 72.39 124.46) (xy 74.93 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a677c6-090e-48d6-8af9-57e734d16fd2")
+	)
+	(wire
+		(pts
+			(xy 74.93 95.25) (xy 74.93 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a9f9d3-4483-41a4-9af3-2b3472f2e6fb")
+	)
+	(wire
+		(pts
+			(xy 74.93 66.04) (xy 74.93 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e479ec-07e7-4a98-bb75-bc23a9ab26ce")
+	)
+	(wire
+		(pts
+			(xy 113.03 85.09) (xy 107.95 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb513670-79b7-4361-85d7-d9a9425fb4ec")
+	)
+	(wire
+		(pts
+			(xy 113.03 143.51) (xy 107.95 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0750a5c-baff-43ae-8767-89eba664fb6a")
+	)
+	(wire
+		(pts
+			(xy 82.55 48.26) (xy 82.55 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e7588b-ce2e-49fc-be82-252ec204fd98")
+	)
+	(wire
+		(pts
+			(xy 82.55 77.47) (xy 82.55 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47a98c1-cb62-4613-91f6-8d04fd2cd1bd")
+	)
+	(wire
+		(pts
+			(xy 74.93 106.68) (xy 74.93 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61d07fe-6aa6-4178-b280-dfea8663924f")
 	)
 	(global_label "Blue_PWM"
 		(shape input)
-		(at 113.03 93.98 0)
+		(at 113.03 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -867,7 +1883,31 @@
 		)
 		(uuid "0f78a28a-e18d-44b7-ab9a-f4fdc97b75dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.3284 93.98 0)
+			(at 125.3284 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Blue+"
+		(shape input)
+		(at 127 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "314a12b7-19d2-4271-8ff9-39f8dae873de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.7304 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -903,9 +1943,33 @@
 			)
 		)
 	)
+	(global_label "Blue-"
+		(shape input)
+		(at 127 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f7b5b65-2b51-4947-a8db-afb3d2992ce4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.7304 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Green_PWM"
 		(shape input)
-		(at 113.03 74.93 0)
+		(at 113.03 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -915,7 +1979,55 @@
 		)
 		(uuid "82808e9b-033c-4650-89f2-9612d60c3768")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.538 74.93 0)
+			(at 126.538 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Red+"
+		(shape input)
+		(at 127 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a33f88a7-c9ec-4561-b02b-bd5765c49294")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.0652 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Red-"
+		(shape input)
+		(at 127 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b590fd4a-87a6-46b5-a1cd-4bf0f9e944f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.0652 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -929,7 +2041,7 @@
 	)
 	(global_label "White_PWM"
 		(shape input)
-		(at 113.03 113.03 0)
+		(at 113.03 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -939,7 +2051,103 @@
 		)
 		(uuid "b729fa13-c6db-4434-b14d-552d5b5829f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.1751 113.03 0)
+			(at 126.1751 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "White+"
+		(shape input)
+		(at 127 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c224f5fb-4f0f-40da-a3b0-35904a2b54db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.5771 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Green+"
+		(shape input)
+		(at 127 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca77bb2c-968b-4b26-854a-219e527ec2f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Green-"
+		(shape input)
+		(at 127 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df8cfd48-42fd-480a-bb65-b2b17ee5da43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.94 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "White-"
+		(shape input)
+		(at 127 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3710ce6-6693-47eb-8589-53460acdc5f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.5771 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -953,7 +2161,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 119.38 83.82 0)
+		(at 78.74 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -961,32 +2169,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "07b3e70d-99fe-4d29-9a58-29e844318adf")
 		(property "Reference" "R1"
-			(at 121.92 82.5499 0)
+			(at 78.74 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "150mΩ"
-			(at 121.92 85.0899 0)
+			(at 78.74 46.228 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 117.602 83.82 90)
+			(at 78.74 50.038 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -997,7 +2202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 83.82 0)
+			(at 78.74 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1008,7 +2213,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 119.38 83.82 0)
+			(at 78.74 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1034,8 +2239,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 110.49 125.73 0)
+		(lib_id "PCM_JLCPCB-Diodes:Schottky,SS14")
+		(at 95.25 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1043,10 +2248,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51fda28f-ddb6-4d9f-aeb4-820ac98ceb02")
-		(property "Reference" "#PWR01"
-			(at 110.49 132.08 0)
+		(uuid "1c0f2c47-d044-4858-90e7-ee0cd23a83f9")
+		(property "Reference" "D1"
+			(at 91.948 72.644 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 94.996 73.406 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SMA"
+			(at 95.25 69.342 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1056,8 +2280,9 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 110.49 130.81 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf"
+			(at 95.25 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1066,8 +2291,230 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 110.49 125.73 0)
+		(property "Description" "40V Independent Type 1A 550mV@1A SMA(DO-214AC) Schottky Diodes ROHS"
+			(at 95.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2480"
+			(at 95.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "1115112"
+			(at 95.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.018USD"
+			(at 95.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 95.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 95.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 95.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 95.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
+			(at 95.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MDD（Microdiode Electronics）"
+			(at 95.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "SS14"
+			(at 95.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rectified Current" "1A"
+			(at 95.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Forward Voltage (Vf@If)" "550mV@1A"
+			(at 95.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Voltage (Vr)" "40V"
+			(at 95.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" "Independent Type"
+			(at 95.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "300uA@40V"
+			(at 95.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70206ea6-0dd4-457c-b819-6e8717a5bff0")
+		)
+		(pin "2"
+			(uuid "bcdf39d7-1fde-491a-afbc-8a8bad2d394a")
+		)
+		(instances
+			(project "main"
+				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "28bf6771-d2f5-4205-9239-902b119ac168")
+		(property "Reference" "R2"
+			(at 78.74 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150mΩ"
+			(at 78.74 75.438 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 78.74 79.248 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1078,7 +2525,332 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 125.73 0)
+			(at 78.74 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5910a383-5e67-4e74-9bde-d345b78584af")
+		)
+		(pin "2"
+			(uuid "c98f1129-7a33-4a8f-aebc-725072edd2bc")
+		)
+		(instances
+			(project "main"
+				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:Schottky,SS14")
+		(at 95.25 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "40bbd390-86f9-473a-8b76-c4c60e95d882")
+		(property "Reference" "D2"
+			(at 91.948 101.854 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 94.996 102.616 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SMA"
+			(at 95.25 98.552 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V Independent Type 1A 550mV@1A SMA(DO-214AC) Schottky Diodes ROHS"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2480"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "1115112"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.018USD"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MDD（Microdiode Electronics）"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "SS14"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rectified Current" "1A"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Forward Voltage (Vf@If)" "550mV@1A"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Voltage (Vr)" "40V"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" "Independent Type"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "300uA@40V"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da1228b7-f5eb-473b-89e0-18c308519ba0")
+		)
+		(pin "2"
+			(uuid "0b4521e5-70c8-4849-9b03-9315752df2f3")
+		)
+		(instances
+			(project "main"
+				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51fda28f-ddb6-4d9f-aeb4-820ac98ceb02")
+		(property "Reference" "#PWR01"
+			(at 110.49 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1089,7 +2861,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 125.73 0)
+			(at 110.49 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1112,8 +2884,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL6807")
-		(at 95.25 99.06 0)
+		(lib_id "PCM_JLCPCB-Diodes:Schottky,SS14")
+		(at 95.25 158.75 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1121,9 +2893,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "52a2b068-5fa2-401d-878a-5c209a55db7b")
-		(property "Reference" "U3"
-			(at 95.25 90.424 0)
+		(uuid "6271a417-e8d1-4de6-acfc-0cebe0b6ebcf")
+		(property "Reference" "D4"
+			(at 91.948 160.274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1132,18 +2904,18 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 95.25 99.06 0)
+		(property "Value" "SS14"
+			(at 94.996 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SOT-89-5_L4.5-W2.5-P1.50-LS4.5-BR"
-			(at 95.25 99.06 0)
+		(property "Footprint" "PCM_JLCPCB:D_SMA"
+			(at 95.25 156.972 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1153,8 +2925,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL6807/25784.html"
-			(at 95.25 99.06 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf"
+			(at 95.25 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1164,8 +2936,8 @@
 				)
 			)
 		)
-		(property "Description" "Type:- Voltage - Input(DC):6V~35V Voltage - Input(DC):6V~35V Frequency - Switching:1MHz Frequency - Switching:1MHz Number of Channels:1 Output Voltage:- Output Voltage:- Output Current:1A Dimming:PWM；Analog Features:- Voltage - Input(AC):- Voltage - Input"
-			(at 95.25 99.06 0)
+		(property "Description" "40V Independent Type 1A 550mV@1A SMA(DO-214AC) Schottky Diodes ROHS"
+			(at 95.25 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1175,8 +2947,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CL6807"
-			(at 95.25 99.06 0)
+		(property "LCSC" "C2480"
+			(at 95.25 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1186,8 +2958,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CHIPLINK(芯联)"
-			(at 95.25 99.06 0)
+		(property "Stock" "1115112"
+			(at 95.25 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1197,8 +2969,8 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C25041"
-			(at 95.25 99.06 0)
+		(property "Price" "0.018USD"
+			(at 95.25 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1208,8 +2980,8 @@
 				)
 			)
 		)
-		(property "Supplier" "LCSC"
-			(at 95.25 99.06 0)
+		(property "Process" "SMT"
+			(at 95.25 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1219,8 +2991,118 @@
 				)
 			)
 		)
-		(property "LCSC Part Name" "输出1A"
-			(at 95.25 99.06 0)
+		(property "Minimum Qty" "5"
+			(at 95.25 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 95.25 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 95.25 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
+			(at 95.25 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MDD（Microdiode Electronics）"
+			(at 95.25 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "SS14"
+			(at 95.25 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rectified Current" "1A"
+			(at 95.25 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Forward Voltage (Vf@If)" "550mV@1A"
+			(at 95.25 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Voltage (Vr)" "40V"
+			(at 95.25 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" "Independent Type"
+			(at 95.25 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "300uA@40V"
+			(at 95.25 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1231,24 +3113,149 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ea7d9dd-636c-43d7-b368-cf8bc5ab4156")
+			(uuid "1f3bdcc7-6a55-435d-88ad-04c0d1b2014f")
 		)
 		(pin "2"
-			(uuid "f8c1f2c1-c5b4-402c-902b-5c899bc80622")
-		)
-		(pin "4"
-			(uuid "d6d424a5-ee70-4c30-810f-019a1287760d")
-		)
-		(pin "3"
-			(uuid "9f40713e-5265-4637-b53c-35d0428046b6")
-		)
-		(pin "5"
-			(uuid "5ad72000-428a-449b-9a2b-4e3f83ae0117")
+			(uuid "af94a245-9f8e-455e-a6c5-791a542d50c6")
 		)
 		(instances
 			(project "main"
 				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
-					(reference "U3")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:FNR6045S680MT")
+		(at 116.84 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "794d41be-467f-4beb-b498-42d4e0eadb04")
+		(property "Reference" "L2"
+			(at 116.84 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68uH"
+			(at 116.84 93.218 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:IND-SMD_L6.0-W6.0_FNR60XXS"
+			(at 116.84 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190327/C167925_9EFF0AABC4CA629C2CC95961DBF7D39D.pdf"
+			(at 116.84 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductance: Tolerance:±20% Tolerance:±20% Rated Current: Saturation Current (Isat):1.3A DC Resistance (DCR):376mΩ"
+			(at 116.84 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "FNR6045S680MT"
+			(at 116.84 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "cjiang(长江微电)"
+			(at 116.84 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C168091"
+			(at 116.84 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 116.84 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "68uH ±20% 1.3A"
+			(at 116.84 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d82ec066-5053-4906-80e3-eab987fcc999")
+		)
+		(pin "1"
+			(uuid "2b4415f1-72b1-4dc0-882f-816a70c2a769")
+		)
+		(instances
+			(project "main"
+				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -1256,7 +3263,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA_Lib:CL6807")
-		(at 95.25 118.11 0)
+		(at 95.25 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1264,9 +3271,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "897cbed2-e377-4866-8068-27241be5f3d5")
-		(property "Reference" "U4"
-			(at 95.25 109.474 0)
+		(uuid "962407b3-f0d3-49c6-9eb0-9832ff8bac0d")
+		(property "Reference" "U2"
+			(at 95.25 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1276,7 +3283,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 95.25 118.11 0)
+			(at 95.25 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1286,7 +3293,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:SOT-89-5_L4.5-W2.5-P1.50-LS4.5-BR"
-			(at 95.25 118.11 0)
+			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1297,7 +3304,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL6807/25784.html"
-			(at 95.25 118.11 0)
+			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1308,7 +3315,7 @@
 			)
 		)
 		(property "Description" "Type:- Voltage - Input(DC):6V~35V Voltage - Input(DC):6V~35V Frequency - Switching:1MHz Frequency - Switching:1MHz Number of Channels:1 Output Voltage:- Output Voltage:- Output Current:1A Dimming:PWM；Analog Features:- Voltage - Input(AC):- Voltage - Input"
-			(at 95.25 118.11 0)
+			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1319,7 +3326,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL6807"
-			(at 95.25 118.11 0)
+			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1330,7 +3337,7 @@
 			)
 		)
 		(property "Manufacturer" "CHIPLINK(芯联)"
-			(at 95.25 118.11 0)
+			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1341,7 +3348,7 @@
 			)
 		)
 		(property "Supplier Part" "C25041"
-			(at 95.25 118.11 0)
+			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1352,7 +3359,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 95.25 118.11 0)
+			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1363,7 +3370,7 @@
 			)
 		)
 		(property "LCSC Part Name" "输出1A"
-			(at 95.25 118.11 0)
+			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1374,24 +3381,237 @@
 			)
 		)
 		(pin "1"
-			(uuid "ca124e4d-99b2-4a50-b3fd-40c42a835db8")
+			(uuid "7da47705-10d7-4f2d-b2d4-cfbfcc89d6bd")
 		)
 		(pin "2"
-			(uuid "93bddc5a-c075-41e1-8690-80baec07b27d")
+			(uuid "bc2aa67e-7f9b-4179-b9a8-9bb3fb96116e")
 		)
 		(pin "4"
-			(uuid "9027abbb-88a3-4c01-91d3-3859a39d4b5d")
+			(uuid "7c0c4e19-d746-437d-8eef-afcecc3ebd13")
 		)
 		(pin "3"
-			(uuid "786a5edc-8825-46fa-94e6-110b0dae7664")
+			(uuid "7e66db96-707e-4303-9c8d-78ea0c0172e7")
 		)
 		(pin "5"
-			(uuid "b2bb44a4-e932-4ac6-a5fe-94f5b5b12ce7")
+			(uuid "80c2811f-5766-4ff2-8a7e-7a4558606f50")
 		)
 		(instances
 			(project "main"
 				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
-					(reference "U4")
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:FNR6045S680MT")
+		(at 116.84 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "973f4e62-7b56-44e9-844e-e550ca430622")
+		(property "Reference" "L1"
+			(at 116.84 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68uH"
+			(at 116.84 64.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:IND-SMD_L6.0-W6.0_FNR60XXS"
+			(at 116.84 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190327/C167925_9EFF0AABC4CA629C2CC95961DBF7D39D.pdf"
+			(at 116.84 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductance: Tolerance:±20% Tolerance:±20% Rated Current: Saturation Current (Isat):1.3A DC Resistance (DCR):376mΩ"
+			(at 116.84 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "FNR6045S680MT"
+			(at 116.84 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "cjiang(长江微电)"
+			(at 116.84 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C168091"
+			(at 116.84 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 116.84 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "68uH ±20% 1.3A"
+			(at 116.84 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dc1f199f-a7cd-4b81-8538-9d865174303b")
+		)
+		(pin "1"
+			(uuid "72eb1b6d-3753-467d-80cf-2ab669f3cd58")
+		)
+		(instances
+			(project "main"
+				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 135.89 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5117f16-8946-49b7-baaa-ee307e6d112b")
+		(property "Reference" "R4"
+			(at 78.74 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150mΩ"
+			(at 78.74 133.858 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 78.74 137.668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e03b267-e82b-4d37-8d83-16e22d18a463")
+		)
+		(pin "2"
+			(uuid "58c1e0a1-0282-4cc5-b8fe-52d139153764")
+		)
+		(instances
+			(project "main"
+				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -1541,8 +3761,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:CL6807")
-		(at 95.25 80.01 0)
+		(lib_id "EasyEDA_Lib:FNR6045S680MT")
+		(at 116.84 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1550,9 +3770,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e4fadd96-7474-4a3d-80cb-09177efe7e3b")
-		(property "Reference" "U2"
-			(at 95.25 71.374 0)
+		(uuid "af9010cb-b932-455b-a5e7-05acb448926d")
+		(property "Reference" "L3"
+			(at 116.84 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1561,8 +3781,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 95.25 80.01 0)
+		(property "Value" "68uH"
+			(at 116.84 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1571,8 +3791,8 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SOT-89-5_L4.5-W2.5-P1.50-LS4.5-BR"
-			(at 95.25 80.01 0)
+		(property "Footprint" "EasyEDA_Lib:IND-SMD_L6.0-W6.0_FNR60XXS"
+			(at 116.84 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1582,8 +3802,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL6807/25784.html"
-			(at 95.25 80.01 0)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190327/C167925_9EFF0AABC4CA629C2CC95961DBF7D39D.pdf"
+			(at 116.84 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1593,8 +3813,8 @@
 				)
 			)
 		)
-		(property "Description" "Type:- Voltage - Input(DC):6V~35V Voltage - Input(DC):6V~35V Frequency - Switching:1MHz Frequency - Switching:1MHz Number of Channels:1 Output Voltage:- Output Voltage:- Output Current:1A Dimming:PWM；Analog Features:- Voltage - Input(AC):- Voltage - Input"
-			(at 95.25 80.01 0)
+		(property "Description" "Inductance: Tolerance:±20% Tolerance:±20% Rated Current: Saturation Current (Isat):1.3A DC Resistance (DCR):376mΩ"
+			(at 116.84 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1604,8 +3824,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CL6807"
-			(at 95.25 80.01 0)
+		(property "Manufacturer Part" "FNR6045S680MT"
+			(at 116.84 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1615,8 +3835,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CHIPLINK(芯联)"
-			(at 95.25 80.01 0)
+		(property "Manufacturer" "cjiang(长江微电)"
+			(at 116.84 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1626,8 +3846,8 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C25041"
-			(at 95.25 80.01 0)
+		(property "Supplier Part" "C168091"
+			(at 116.84 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1638,7 +3858,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 95.25 80.01 0)
+			(at 116.84 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1648,8 +3868,252 @@
 				)
 			)
 		)
-		(property "LCSC Part Name" "输出1A"
-			(at 95.25 80.01 0)
+		(property "LCSC Part Name" "68uH ±20% 1.3A"
+			(at 116.84 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e92a1188-4c84-4500-8f26-ecd1a4c05639")
+		)
+		(pin "1"
+			(uuid "1288bfa8-b2fd-4d16-98d4-7f828f21064e")
+		)
+		(instances
+			(project "main"
+				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:Schottky,SS14")
+		(at 95.25 129.54 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b707540d-fa6c-4f82-888e-8ac09974081a")
+		(property "Reference" "D3"
+			(at 91.948 131.064 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 94.996 131.826 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SMA"
+			(at 95.25 127.762 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf"
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V Independent Type 1A 550mV@1A SMA(DO-214AC) Schottky Diodes ROHS"
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2480"
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "1115112"
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.018USD"
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MDD（Microdiode Electronics）"
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "SS14"
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rectified Current" "1A"
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Forward Voltage (Vf@If)" "550mV@1A"
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Voltage (Vr)" "40V"
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" "Independent Type"
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "300uA@40V"
+			(at 95.25 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1660,32 +4124,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "1010a6e7-f4d6-48eb-aed9-3b8428e3f7c0")
+			(uuid "033b037d-da37-41a9-96f2-96ebb3e0fbb1")
 		)
 		(pin "2"
-			(uuid "167b3c5b-0773-4ab3-945a-5e903add7f45")
-		)
-		(pin "4"
-			(uuid "f7295ddc-42cc-4684-bbe5-1ebea5bcfaa9")
-		)
-		(pin "3"
-			(uuid "86ea55c3-ea9e-4060-b8fa-4800645f1e27")
-		)
-		(pin "5"
-			(uuid "bab12d44-5503-4380-a5d5-7af80fc43c7f")
+			(uuid "39e01cac-afdf-463d-a9c3-b5f0592d1b58")
 		)
 		(instances
 			(project "main"
 				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
-					(reference "U2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 80.01 50.8 0)
+		(lib_id "EasyEDA_Lib:CL6807")
+		(at 95.25 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1693,10 +4148,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9859dfc-de29-4e34-a5a3-78839291d206")
-		(property "Reference" "#PWR02"
-			(at 80.01 54.61 0)
+		(uuid "b8e7902f-2a5a-40bb-b1c7-9b00b2dacbb2")
+		(property "Reference" "U3"
+			(at 95.25 110.744 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 95.25 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOT-89-5_L4.5-W2.5-P1.50-LS4.5-BR"
+			(at 95.25 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1706,8 +4180,9 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 80.01 45.72 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL6807/25784.html"
+			(at 95.25 119.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1716,8 +4191,406 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 80.01 50.8 0)
+		(property "Description" "Type:- Voltage - Input(DC):6V~35V Voltage - Input(DC):6V~35V Frequency - Switching:1MHz Frequency - Switching:1MHz Number of Channels:1 Output Voltage:- Output Voltage:- Output Current:1A Dimming:PWM；Analog Features:- Voltage - Input(AC):- Voltage - Input"
+			(at 95.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL6807"
+			(at 95.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "CHIPLINK(芯联)"
+			(at 95.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C25041"
+			(at 95.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 95.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "输出1A"
+			(at 95.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9f43278-be42-4372-93a3-ebcb593661c3")
+		)
+		(pin "2"
+			(uuid "2a1b879c-5f04-4bf7-ad74-47bf195dc34d")
+		)
+		(pin "4"
+			(uuid "8c2b9c30-d075-4a03-9e14-d5abc4860353")
+		)
+		(pin "3"
+			(uuid "5d8f65f5-805e-49f9-a26c-ad417b97b23e")
+		)
+		(pin "5"
+			(uuid "7ad71d8c-312f-4347-9213-bcf045ea0869")
+		)
+		(instances
+			(project "main"
+				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:CL6807")
+		(at 95.25 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7941f62-553e-4149-a102-13d472025ba8")
+		(property "Reference" "U4"
+			(at 95.25 139.954 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 95.25 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOT-89-5_L4.5-W2.5-P1.50-LS4.5-BR"
+			(at 95.25 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL6807/25784.html"
+			(at 95.25 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:- Voltage - Input(DC):6V~35V Voltage - Input(DC):6V~35V Frequency - Switching:1MHz Frequency - Switching:1MHz Number of Channels:1 Output Voltage:- Output Voltage:- Output Current:1A Dimming:PWM；Analog Features:- Voltage - Input(AC):- Voltage - Input"
+			(at 95.25 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL6807"
+			(at 95.25 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "CHIPLINK(芯联)"
+			(at 95.25 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C25041"
+			(at 95.25 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 95.25 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "输出1A"
+			(at 95.25 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91505e28-71c3-4741-90bb-887fc993dc1b")
+		)
+		(pin "2"
+			(uuid "cbe896f8-2183-4275-9625-c93c703b5d36")
+		)
+		(pin "4"
+			(uuid "8118b7b9-d357-4900-bb19-9d4f17ac13c4")
+		)
+		(pin "3"
+			(uuid "61ea5d76-7583-4df1-adec-461d64fd5172")
+		)
+		(pin "5"
+			(uuid "df54c0bf-b531-430a-8921-90096f5926ed")
+		)
+		(instances
+			(project "main"
+				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:FNR6045S680MT")
+		(at 116.84 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cadb50d0-b47e-45ee-9ceb-a107d8aae3a6")
+		(property "Reference" "L4"
+			(at 116.84 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68uH"
+			(at 116.84 151.638 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:IND-SMD_L6.0-W6.0_FNR60XXS"
+			(at 116.84 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190327/C167925_9EFF0AABC4CA629C2CC95961DBF7D39D.pdf"
+			(at 116.84 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductance: Tolerance:±20% Tolerance:±20% Rated Current: Saturation Current (Isat):1.3A DC Resistance (DCR):376mΩ"
+			(at 116.84 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "FNR6045S680MT"
+			(at 116.84 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "cjiang(长江微电)"
+			(at 116.84 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C168091"
+			(at 116.84 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 116.84 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "68uH ±20% 1.3A"
+			(at 116.84 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "df463c7e-f755-45d0-872b-f09d1b4c1ac8")
+		)
+		(pin "1"
+			(uuid "fda512bc-4ba1-4e4f-bdb6-23dd40f2649a")
+		)
+		(instances
+			(project "main"
+				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cfe7a67b-57d8-4553-91f1-ec5835ff9daf")
+		(property "Reference" "R3"
+			(at 78.74 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150mΩ"
+			(at 78.74 104.648 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 78.74 108.458 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1728,7 +4601,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 50.8 0)
+			(at 78.74 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e77d2f32-4e50-40de-8f36-03aa2ecb0b96")
+		)
+		(pin "2"
+			(uuid "56cd4a55-c924-4252-b7df-e2e5732988f8")
+		)
+		(instances
+			(project "main"
+				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 74.93 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9859dfc-de29-4e34-a5a3-78839291d206")
+		(property "Reference" "#PWR02"
+			(at 74.93 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 74.93 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1739,7 +4693,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 80.01 50.8 0)
+			(at 74.93 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

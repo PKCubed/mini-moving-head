@@ -12348,7 +12348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 219.71 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -13169,7 +13169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 121.92 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13452,7 +13452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 121.92 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13775,7 +13775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm"
+		(property "Footprint" "solder-pads:2-position"
 			(at 175.26 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14873,7 +14873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "solder-pads:3-position"
 			(at 170.18 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -17677,7 +17677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 121.92 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -18366,7 +18366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 121.92 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -18758,7 +18758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 121.92 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -19029,7 +19029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm"
+		(property "Footprint" "solder-pads:2-position"
 			(at 231.14 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -19456,7 +19456,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 34.29 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -19540,7 +19540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -21226,7 +21226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm"
+		(property "Footprint" "solder-pads:2-position"
 			(at 189.23 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -21308,7 +21308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 219.71 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -24457,7 +24457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "solder-pads:3-position"
 			(at 170.18 158.75 0)
 			(hide yes)
 			(show_name no)

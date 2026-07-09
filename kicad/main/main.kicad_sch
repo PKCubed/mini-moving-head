@@ -473,576 +473,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "EasyEDA_Lib:CL6807"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA_Lib:SOT-89-5_L4.5-W2.5-P1.50-LS4.5-BR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/CL6807/25784.html"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Type:- Voltage - Input(DC):6V~35V Voltage - Input(DC):6V~35V Frequency - Switching:1MHz Frequency - Switching:1MHz Number of Channels:1 Output Voltage:- Output Voltage:- Output Current:1A Dimming:PWM；Analog Features:- Voltage - Input(AC):- Voltage - Input"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "CL6807"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "CHIPLINK(芯联)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part" "C25041"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part Name" "输出1A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CL6807_1_0"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "LX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "ADJ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "ISNS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "EasyEDA_Lib:FNR6045S680MT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "68uH"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA_Lib:IND-SMD_L6.0-W6.0_FNR60XXS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190327/C167925_9EFF0AABC4CA629C2CC95961DBF7D39D.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductance: Tolerance:±20% Tolerance:±20% Rated Current: Saturation Current (Isat):1.3A DC Resistance (DCR):376mΩ"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "FNR6045S680MT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "cjiang(长江微电)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part" "C168091"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part Name" "68uH ±20% 1.3A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FNR6045S680MT_1_0"
-				(polyline
-					(pts
-						(xy -4.2672 0) (xy -4.2164 0.4064) (xy -4.2164 0.4064) (xy -4.0132 0.762) (xy -4.0132 0.762) (xy -3.6576 1.016)
-						(xy -3.6576 1.016) (xy -3.2512 1.0922) (xy -3.2512 1.0922) (xy -2.8702 1.016) (xy -2.8702 1.016)
-						(xy -2.5146 0.762) (xy -2.5146 0.762) (xy -2.3114 0.4064) (xy -2.3114 0.4064) (xy -2.2606 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.1082 0) (xy -2.0828 0.4064) (xy -2.0828 0.4064) (xy -1.8542 0.762) (xy -1.8542 0.762) (xy -1.4986 1.016)
-						(xy -1.4986 1.016) (xy -1.1176 1.0922) (xy -1.1176 1.0922) (xy -0.7112 1.016) (xy -0.7112 1.016)
-						(xy -0.3556 0.762) (xy -0.3556 0.762) (xy -0.1524 0.4064) (xy -0.1524 0.4064) (xy -0.1016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.0508 0.4064) (xy 0.0508 0.4064) (xy 0.2794 0.762) (xy 0.2794 0.762) (xy 0.6096 1.016)
-						(xy 0.6096 1.016) (xy 1.016 1.0922) (xy 1.016 1.0922) (xy 1.4224 1.016) (xy 1.4224 1.016) (xy 1.7526 0.762)
-						(xy 1.7526 0.762) (xy 1.9812 0.4064) (xy 1.9812 0.4064) (xy 2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.2098 0) (xy 2.2352 0.4064) (xy 2.2352 0.4064) (xy 2.4638 0.762) (xy 2.4638 0.762) (xy 2.8194 1.016)
-						(xy 2.8194 1.016) (xy 3.2004 1.0922) (xy 3.2004 1.0922) (xy 3.6068 1.016) (xy 3.6068 1.016) (xy 3.9624 0.762)
-						(xy 3.9624 0.762) (xy 4.1656 0.4064) (xy 4.1656 0.4064) (xy 4.2164 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 0.762)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 0.762)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyEDA_Lib:PAM2804AAB010"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4454,315 +3884,6 @@
 				)
 			)
 			(symbol "LED,0805,Green_1_1"
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_JLCPCB-Diodes:Schottky,SS14"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 2.032 0.834 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SS14"
-				(at 2.032 -1.2122 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_JLCPCB:D_SMA"
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "40V Independent Type 1A 550mV@1A SMA(DO-214AC) Schottky Diodes ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C2480"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Stock" "1115112"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Price" "0.018USD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Process" "SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Minimum Qty" "5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Attrition Qty" "10"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Class" "Basic Component"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "MDD（Microdiode Electronics）"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part" "SS14"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Rectified Current" "1A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Forward Voltage (Vf@If)" "550mV@1A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Reverse Voltage (Vr)" "40V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Diode Configuration" "Independent Type"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Reverse Leakage Current (Ir)" "300uA@40V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Schottky,SS14_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27) (xy -1.27 -1.27) (xy -1.27 -0.635) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Schottky,SS14_1_1"
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 3.81)
@@ -9127,12 +8248,6 @@
 		(uuid "48e7465e-ee9b-43c9-8355-9db1f1725d05")
 	)
 	(junction
-		(at 162.56 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c311e86-dd0d-427b-8705-16d71c041875")
-	)
-	(junction
 		(at 224.79 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9209,12 +8324,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "987759b5-3417-4b99-9363-08d67bd00165")
-	)
-	(junction
-		(at 195.58 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a8d87fe-0074-4d3a-ab78-3e21dd7bd523")
 	)
 	(junction
 		(at 96.52 35.56)
@@ -9462,16 +8571,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 107.95) (xy 210.82 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e392e5c-82c1-44d5-b62d-d3da8c1d0b3b")
-	)
-	(wire
-		(pts
 			(xy 163.83 162.56) (xy 163.83 161.29)
 		)
 		(stroke
@@ -9552,16 +8651,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 113.03) (xy 179.07 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21b4ffe2-79ef-494e-b690-0c5f32b2975c")
-	)
-	(wire
-		(pts
 			(xy 80.01 177.8) (xy 82.55 177.8)
 		)
 		(stroke
@@ -9632,16 +8721,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 97.79) (xy 195.58 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dae7410-3c01-4bf9-9238-4c859de38d3e")
-	)
-	(wire
-		(pts
 			(xy 106.68 43.18) (xy 116.84 43.18)
 		)
 		(stroke
@@ -9649,16 +8728,6 @@
 			(type default)
 		)
 		(uuid "352d0b65-68ed-4190-8a92-b271f189d0e9")
-	)
-	(wire
-		(pts
-			(xy 195.58 107.95) (xy 200.66 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "353fe5a8-eeee-4c0a-baa1-6071489a9b04")
 	)
 	(wire
 		(pts
@@ -9719,16 +8788,6 @@
 			(type default)
 		)
 		(uuid "3d2cd665-c38d-4724-a2e4-2fe804d08300")
-	)
-	(wire
-		(pts
-			(xy 195.58 102.87) (xy 198.12 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eb4ee27-9e7d-43c1-a806-ae1487203076")
 	)
 	(wire
 		(pts
@@ -9839,16 +8898,6 @@
 			(type default)
 		)
 		(uuid "507713eb-555e-4aae-a389-c1c7c6f51015")
-	)
-	(wire
-		(pts
-			(xy 198.12 102.87) (xy 198.12 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c4c2d7d-feb4-4bb8-9559-e3f1d0643746")
 	)
 	(wire
 		(pts
@@ -10062,16 +9111,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 85.09) (xy 162.56 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90a2ea02-2e2e-454e-9e13-521f7655803f")
-	)
-	(wire
-		(pts
 			(xy 96.52 27.94) (xy 105.41 27.94)
 		)
 		(stroke
@@ -10122,26 +9161,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 107.95) (xy 170.18 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "980ca456-66ef-441e-89a3-a809c7f7012e")
-	)
-	(wire
-		(pts
-			(xy 195.58 113.03) (xy 195.58 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bacbb98-bb00-41fc-b00c-862d944123dd")
-	)
-	(wire
-		(pts
 			(xy 106.68 60.96) (xy 104.14 60.96)
 		)
 		(stroke
@@ -10169,16 +9188,6 @@
 			(type default)
 		)
 		(uuid "9c81ba45-8f53-41a5-953b-2a613a1f9c0a")
-	)
-	(wire
-		(pts
-			(xy 40.64 144.78) (xy 40.64 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ca49cae-0d54-4688-a02b-454ecfc1e434")
 	)
 	(wire
 		(pts
@@ -10382,16 +9391,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 90.17) (xy 214.63 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb86c9b6-9c67-44b3-8c15-9a43143a26d2")
-	)
-	(wire
-		(pts
 			(xy 80.01 22.86) (xy 85.09 22.86)
 		)
 		(stroke
@@ -10439,26 +9438,6 @@
 			(type default)
 		)
 		(uuid "d9a8ace0-eb3a-49f1-b06e-bc45e9ccedd6")
-	)
-	(wire
-		(pts
-			(xy 40.64 143.51) (xy 39.37 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da19ad3b-7f90-434a-98d6-c3cbef8871b3")
-	)
-	(wire
-		(pts
-			(xy 186.69 113.03) (xy 195.58 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd04a5ca-cc6e-498c-82dd-e95f6ecef9f4")
 	)
 	(wire
 		(pts
@@ -10512,16 +9491,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 107.95) (xy 162.56 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7e479ec-07e7-4a98-bb75-bc23a9ab26ce")
-	)
-	(wire
-		(pts
 			(xy 27.94 173.99) (xy 30.48 173.99)
 		)
 		(stroke
@@ -10559,16 +9528,6 @@
 			(type default)
 		)
 		(uuid "f1bf0a82-3ee0-4446-a1a2-40cc51fca947")
-	)
-	(wire
-		(pts
-			(xy 170.18 90.17) (xy 170.18 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2e7588b-ce2e-49fc-be82-252ec204fd98")
 	)
 	(wire
 		(pts
@@ -10846,30 +9805,6 @@
 			)
 		)
 	)
-	(global_label "LED_PWM"
-		(shape input)
-		(at 200.66 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "49b4d92c-836c-49e7-be72-309906b59f31")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.2327 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "LED-"
 		(shape input)
 		(at 226.06 100.33 180)
@@ -10891,30 +9826,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "SWCLK"
-		(shape input)
-		(at 39.37 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52264e34-a2a3-4f3a-a2bd-db6469e5538c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.5842 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -11014,30 +9925,6 @@
 			)
 		)
 	)
-	(global_label "SWD"
-		(shape input)
-		(at 39.37 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7b5f3d6e-9e97-4634-bfb6-0bce7c75acba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.2861 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "QSPI_SD2"
 		(shape input)
 		(at 71.12 99.06 180)
@@ -11086,6 +9973,30 @@
 			)
 		)
 	)
+	(global_label "Data In"
+		(shape input)
+		(at 214.63 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f1b6236-8305-4906-8449-95c6ca3fdbc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.6297 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "QSPI_SD1"
 		(shape input)
 		(at 80.01 177.8 180)
@@ -11107,30 +10018,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "LED+"
-		(shape input)
-		(at 214.63 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a33f88a7-c9ec-4561-b02b-bd5765c49294")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.6347 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -11275,30 +10162,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "LED-"
-		(shape input)
-		(at 214.63 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b590fd4a-87a6-46b5-a1cd-4bf0f9e944f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.6347 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -11507,6 +10370,30 @@
 		(uuid "ec44a86a-bdd7-4eee-b732-8d3c65e66d43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 59.0634 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Data In"
+		(shape input)
+		(at 214.63 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0cbfc1c-5877-4d7a-aba5-9214ff0025c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.6297 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13498,250 +12385,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:Schottky,SS14")
-		(at 182.88 113.03 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1c0f2c47-d044-4858-90e7-ee0cd23a83f9")
-		(property "Reference" "D1"
-			(at 179.578 114.554 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS14"
-			(at 182.626 115.316 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SMA"
-			(at 182.88 111.252 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "40V Independent Type 1A 550mV@1A SMA(DO-214AC) Schottky Diodes ROHS"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2480"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "1115112"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.018USD"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Process" "SMT"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "MDD（Microdiode Electronics）"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "SS14"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rectified Current" "1A"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Forward Voltage (Vf@If)" "550mV@1A"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reverse Voltage (Vr)" "40V"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Diode Configuration" "Independent Type"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reverse Leakage Current (Ir)" "300uA@40V"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "70206ea6-0dd4-457c-b819-6e8717a5bff0")
-		)
-		(pin "2"
-			(uuid "bcdf39d7-1fde-491a-afbc-8a8bad2d394a")
-		)
-		(instances
-			(project "main"
-				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 175.26 26.67 0)
 		(unit 1)
@@ -15660,84 +14303,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 198.12 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51fda28f-ddb6-4d9f-aeb4-820ac98ceb02")
-		(property "Reference" "#PWR01"
-			(at 198.12 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 198.12 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25e93a8c-e144-4456-be91-5217726943c8")
-		)
-		(instances
-			(project "main"
-				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
 		(at 114.3 24.13 0)
 		(unit 1)
@@ -17568,83 +16133,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 40.64 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6f0e0e70-4a1d-4867-b85f-41006405a725")
-		(property "Reference" "#PWR034"
-			(at 40.64 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 42.926 145.034 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d3e0fac1-768e-4ce0-9940-59e63c95cdcc")
-		)
-		(instances
-			(project "main"
-				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 121.92 81.28 270)
 		(unit 1)
@@ -18328,6 +16816,88 @@
 			(project "main"
 				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 219.71 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77cf123e-ba16-4070-b297-90a87905875a")
+		(property "Reference" "J10"
+			(at 222.25 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 222.25 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "solder-pads:2-position"
+			(at 219.71 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 219.71 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc3ecded-4483-4ef4-99b6-a44c71535f8b")
+		)
+		(pin "2"
+			(uuid "9f42d73b-8f04-4c92-81e0-f106e9499fa6")
+		)
+		(instances
+			(project "main"
+				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -19291,223 +17861,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA_Lib:FNR6045S680MT")
-		(at 205.74 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "973f4e62-7b56-44e9-844e-e550ca430622")
-		(property "Reference" "L1"
-			(at 205.74 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "68uH"
-			(at 205.74 105.918 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA_Lib:IND-SMD_L6.0-W6.0_FNR60XXS"
-			(at 205.74 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190327/C167925_9EFF0AABC4CA629C2CC95961DBF7D39D.pdf"
-			(at 205.74 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductance: Tolerance:±20% Tolerance:±20% Rated Current: Saturation Current (Isat):1.3A DC Resistance (DCR):376mΩ"
-			(at 205.74 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "FNR6045S680MT"
-			(at 205.74 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "cjiang(长江微电)"
-			(at 205.74 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C168091"
-			(at 205.74 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 205.74 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" "68uH ±20% 1.3A"
-			(at 205.74 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dc1f199f-a7cd-4b81-8538-9d865174303b")
-		)
-		(pin "1"
-			(uuid "72eb1b6d-3753-467d-80cf-2ab669f3cd58")
-		)
-		(instances
-			(project "main"
-				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 34.29 140.97 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99ebbd19-0a49-4835-abe7-625804d6b455")
-		(property "Reference" "J9"
-			(at 34.29 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 34.29 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 34.29 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 34.29 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "20eeed00-490d-4a3b-a1c6-183382d50e04")
-		)
-		(pin "1"
-			(uuid "c421dbae-0b4d-4434-bfc1-78a81ec7edef")
-		)
-		(pin "3"
-			(uuid "9080632f-2419-4e17-b31d-3c6ed725bc13")
-		)
-		(instances
-			(project "main"
-				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 121.92 71.12 270)
 		(unit 1)
@@ -19822,84 +18175,6 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 162.56 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4c48b46-40c5-453b-a602-501b5a5127fc")
-		(property "Reference" "#PWR04"
-			(at 162.56 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 162.56 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 162.56 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3d6ad63d-aeef-4a25-914e-9b2de8e1ffe5")
-		)
-		(instances
-			(project "main"
-				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 213.36 138.43 0)
 		(unit 1)
 		(body_style 1)
@@ -19971,149 +18246,6 @@
 			(project "main"
 				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA_Lib:CL6807")
-		(at 182.88 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a9732986-de05-4ce0-a51a-5ba2b4d70075")
-		(property "Reference" "U1"
-			(at 182.88 94.234 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CL6807"
-			(at 181.102 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA_Lib:SOT-89-5_L4.5-W2.5-P1.50-LS4.5-BR"
-			(at 182.88 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL6807/25784.html"
-			(at 182.88 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Type:- Voltage - Input(DC):6V~35V Voltage - Input(DC):6V~35V Frequency - Switching:1MHz Frequency - Switching:1MHz Number of Channels:1 Output Voltage:- Output Voltage:- Output Current:1A Dimming:PWM；Analog Features:- Voltage - Input(AC):- Voltage - Input"
-			(at 182.88 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "CL6807"
-			(at 182.88 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "CHIPLINK(芯联)"
-			(at 182.88 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C25041"
-			(at 182.88 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 182.88 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" "输出1A"
-			(at 182.88 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f1adbaf8-032e-4ed3-ac28-52974ccc59da")
-		)
-		(pin "2"
-			(uuid "2b6013bd-0c9f-47f4-8dd0-0274a405cd9c")
-		)
-		(pin "4"
-			(uuid "48b5204a-8d95-4b41-8e46-dae9a8533b71")
-		)
-		(pin "3"
-			(uuid "dbc6088a-8bb1-4c94-b6a4-376f9eca9d69")
-		)
-		(pin "5"
-			(uuid "4c0e56ce-7ae8-4b6d-a8d3-96927bb34570")
-		)
-		(instances
-			(project "main"
-				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -22641,85 +20773,6 @@
 			(project "main"
 				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 167.64 87.63 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "defe8d57-aaae-4696-b16d-da0678aca626")
-		(property "Reference" "R1"
-			(at 167.64 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150mΩ"
-			(at 167.64 85.598 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 167.64 89.408 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 167.64 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba9066e3-1e39-4a79-ad82-3b72f1250e9a")
-		)
-		(pin "2"
-			(uuid "40427e26-1592-45e2-aa4d-c8aca1155d6f")
-		)
-		(instances
-			(project "main"
-				(path "/04d416a6-c3f6-4cc1-b329-31df85c27013"
-					(reference "R1")
 					(unit 1)
 				)
 			)

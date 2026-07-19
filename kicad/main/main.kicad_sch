@@ -9056,10 +9056,6 @@
 		(uuid "4360016b-3873-4ea9-9869-75efd9ec9e6d")
 	)
 	(no_connect
-		(at 121.92 88.9)
-		(uuid "4cbe1e4e-9853-4615-a622-452f969cb48c")
-	)
-	(no_connect
 		(at 121.92 127)
 		(uuid "75298616-3dba-4637-8dab-5725eae69499")
 	)
@@ -10732,6 +10728,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "LED_PWM"
+		(shape input)
+		(at 121.92 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bf6e0b0-745e-44a2-a9b5-c834b6d8c74d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.4927 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)

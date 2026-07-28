@@ -16,5 +16,8 @@ add_executable(rp2040_pwm_led
 # pull in common dependencies
 target_link_libraries(rp2040_pwm_led pico_stdlib hardware_pwm)
 
+# increase crystal startup delay for reliable boot on some boards
+target_compile_definitions(rp2040_pwm_led PRIVATE PICO_XOSC_STARTUP_DELAY_MULTIPLIER=64)
+
 # create map/bin/hex/uf2 file etc.
 pico_add_extra_outputs(rp2040_pwm_led)

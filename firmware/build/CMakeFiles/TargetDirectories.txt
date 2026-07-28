@@ -1,6 +1,4 @@
 C:/Users/peter/Documents/GitHub/mini-moving-head/firmware/build/CMakeFiles/rp2040_pwm_led.dir
-C:/Users/peter/Documents/GitHub/mini-moving-head/firmware/build/CMakeFiles/picotoolForceReconfigure.dir
-C:/Users/peter/Documents/GitHub/mini-moving-head/firmware/build/CMakeFiles/picotoolBuild.dir
 C:/Users/peter/Documents/GitHub/mini-moving-head/firmware/build/CMakeFiles/edit_cache.dir
 C:/Users/peter/Documents/GitHub/mini-moving-head/firmware/build/CMakeFiles/rebuild_cache.dir
 C:/Users/peter/Documents/GitHub/mini-moving-head/firmware/build/pico-sdk/CMakeFiles/edit_cache.dir

@@ -14,11 +14,20 @@ int main() {
     const uint SERVO_1_PIN = 2; // Sine wave
     const uint SERVO_2_PIN = 3; // Cosine wave
 
-    // Setup LED PWM
+    // Setup LED PWM (GPIO 25)
     gpio_set_function(LED_PIN, GPIO_FUNC_PWM);
     uint led_slice = pwm_gpio_to_slice_num(LED_PIN);
-    pwm_set_wrap(led_slice, 255);
+    pwm_set_clkdiv(led_slice, 125.0f); // 1 MHz clock
+    pwm_set_wrap(led_slice, 1999);     // 1 MHz / 2000 = 500 Hz
     pwm_set_enabled(led_slice, true);
+
+    // Setup LED2 PWM (GPIO 7)
+    const uint LED2_PIN = 7;
+    gpio_set_function(LED2_PIN, GPIO_FUNC_PWM);
+    uint led2_slice = pwm_gpio_to_slice_num(LED2_PIN);
+    pwm_set_clkdiv(led2_slice, 125.0f); // 1 MHz clock
+    pwm_set_wrap(led2_slice, 1999);     // 1 MHz / 2000 = 500 Hz
+    pwm_set_enabled(led2_slice, true);
 
     // Setup Servo PWM (GPIO 2 and 3 share slice 1)
     gpio_set_function(SERVO_1_PIN, GPIO_FUNC_PWM);
@@ -32,15 +41,26 @@ int main() {
     pwm_config_set_wrap(&config, 19999);
     pwm_init(servo_slice, &config, true);
 
+    // --- Initial Servo Centering ---
+    pwm_set_gpio_level(SERVO_1_PIN, 1500); // 1500us is center
+    pwm_set_gpio_level(SERVO_2_PIN, 1500);
+    
+    // Wait for 2 seconds before starting the animation
+    sleep_ms(2000);
+
     int fade = 0;
     bool going_up = true;
     
     float t = 0.0f;
-    const float dt = 0.02f; // Animation speed for the sine/cosine waves
+    const float dt = 0.005f; // Animation speed for the sine/cosine waves (lower is slower)
 
     while (true) {
         // --- LED fading logic ---
-        pwm_set_gpio_level(LED_PIN, fade * fade / 255);
+        // fade goes from 0 to 255. We map (fade * fade) from 0..65025 to 0..1999
+        uint32_t brightness = (fade * fade * 1999) / (255 * 255);
+        pwm_set_gpio_level(LED_PIN, brightness);
+        // Fade GPIO 7 to 100% max brightness
+        pwm_set_gpio_level(LED2_PIN, brightness);
 
         if (going_up) {
             fade++;
@@ -62,8 +82,12 @@ int main() {
         #define SERVO_CENTER 1500
         #define SERVO_AMPLITUDE 1000 // 1500 +/- 1000 = 500us to 2500us.
 
-        uint16_t servo_1_level = (uint16_t)(SERVO_CENTER + SERVO_AMPLITUDE * sin(t));
-        uint16_t servo_2_level = (uint16_t)(SERVO_CENTER + SERVO_AMPLITUDE * cos(t));
+        // Animation temporarily disabled:
+        // uint16_t servo_1_level = (uint16_t)(SERVO_CENTER + SERVO_AMPLITUDE * sin(t));
+        // uint16_t servo_2_level = (uint16_t)(SERVO_CENTER + SERVO_AMPLITUDE * cos(t));
+        
+        uint16_t servo_1_level = 1500; // Locked to 50% (middle)
+        uint16_t servo_2_level = 2100; // Locked to 80%
         
         pwm_set_gpio_level(SERVO_1_PIN, servo_1_level);
         pwm_set_gpio_level(SERVO_2_PIN, servo_2_level);

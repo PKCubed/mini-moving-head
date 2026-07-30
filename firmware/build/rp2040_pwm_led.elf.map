@@ -1007,6 +1007,10 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .data          0x00000000        0x0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .bss           0x00000000        0x0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .text.push_r8_r11
+                0x00000000        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .text.pop_r8_r11
+                0x00000000        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .text.__wrap___aeabi_dcmpeq
                 0x00000000       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .text.__wrap___aeabi_dcmplt
@@ -1025,10 +1029,14 @@ Discarded input sections
                 0x00000000       0x48 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .text.double2int
                 0x00000000       0x18 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .text.__wrap___aeabi_d2uiz
+                0x00000000       0x18 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .text.fix2double
                 0x00000000       0x18 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .text.ufix2double
                 0x00000000       0x28 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .text.fix642double
+                0x00000000       0x18 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .text.__wrap___aeabi_l2d
                 0x00000000       0x18 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .text.__wrap___aeabi_ul2d
@@ -1053,6 +1061,12 @@ Discarded input sections
                 0x00000000       0x18 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .text.__wrap_srqt
                 0x00000000       0x18 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .text.__wrap_sincostan_remainder
+                0x00000000       0x14 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .text.__wrap_cos
+                0x00000000       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .text.__wrap_sin
+                0x00000000       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .text.__wrap_sincos
                 0x00000000       0xa0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .text.__wrap_tan
@@ -1129,19 +1143,58 @@ Discarded input sections
                 0x00000000       0xc4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_fmod
                 0x00000000      0x184 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .text.__wrap_remquo
+                0x00000000      0x2a0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_drem
                 0x00000000       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .text.__wrap_remainder
+                0x00000000       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_info    0x00000000     0x3e71 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_abbrev  0x00000000      0x342 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_loclists
+                0x00000000     0x43fa CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_aranges
+                0x00000000      0x128 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_rnglists
+                0x00000000      0x5be CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_line    0x00000000     0x2cfc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_str     0x00000000      0x510 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_frame   0x00000000      0x444 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .ARM.attributes
+                0x00000000       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text          0x00000000        0x0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
  .data          0x00000000        0x0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
  .bss           0x00000000        0x0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
  .text.dsqrt_shim
                 0x00000000      0x1a8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .text.dcordic_vec_step
+                0x00000000        0xe CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .text.dcordic_rot_step
+                0x00000000       0x76 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
  .text.double2int_shim
                 0x00000000        0xe CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .text.double2uint_shim
+                0x00000000        0xe CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .text.double2int64_shim
+                0x00000000       0x1a CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .text.double2uint64_shim
+                0x00000000       0x70 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .text.x2double_shims
+                0x00000000       0x90 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .text.dunpacks
+                0x00000000       0x3c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .text.dreduce  0x00000000       0x82 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
  .text.dtan_shim
                 0x00000000       0x20 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .text.dcos_shim
+                0x00000000       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .text.dsin_shim
+                0x00000000       0x14 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
  .text.dsincos_shim
                 0x00000000       0x20 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .text.dtrig_guts
+                0x00000000      0x2ec CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
  .text.dexp_guts
                 0x00000000      0x268 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
  .text          0x00000000        0x0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -2449,7 +2502,7 @@ LOAD C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x27c0
+.text           0x10000100     0x1ed0
                 0x10000100                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
@@ -2516,315 +2569,242 @@ LOAD C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb
  .text.frame_dummy
                 0x100002b0       0x24 C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
  .text.startup.main
-                0x100002d4      0x190 CMakeFiles/rp2040_pwm_led.dir/main.c.obj
+                0x100002d4      0x180 CMakeFiles/rp2040_pwm_led.dir/main.c.obj
                 0x100002d4                main
  .text.gpio_set_function
-                0x10000464       0x34 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000464                gpio_set_function
- .text.panic    0x10000498       0x30 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
-                0x10000498                panic
+                0x10000454       0x34 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000454                gpio_set_function
+ .text.panic    0x10000488       0x30 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x10000488                panic
  .text.hw_claim_or_assert
-                0x100004c8       0x44 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/hardware_claim/claim.c.obj
-                0x100004c8                hw_claim_or_assert
+                0x100004b8       0x44 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/hardware_claim/claim.c.obj
+                0x100004b8                hw_claim_or_assert
  .text.next_striped_spin_lock_num
-                0x1000050c       0x18 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x1000050c                next_striped_spin_lock_num
+                0x100004fc       0x18 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100004fc                next_striped_spin_lock_num
  .text.spin_locks_reset
-                0x10000524       0x1c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
-                0x10000524                spin_locks_reset
+                0x10000514       0x1c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+                0x10000514                spin_locks_reset
  .text.runtime_init_per_core_irq_priorities
-                0x10000540       0x24 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000540                runtime_init_per_core_irq_priorities
+                0x10000530       0x24 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000530                runtime_init_per_core_irq_priorities
  .text.irq_set_enabled
-                0x10000564       0x24 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000564                irq_set_enabled
+                0x10000554       0x24 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000554                irq_set_enabled
  .text.irq_set_exclusive_handler
-                0x10000588       0x54 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000588                irq_set_exclusive_handler
+                0x10000578       0x54 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000578                irq_set_exclusive_handler
  .text.lock_init
-                0x100005dc       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x100005dc                lock_init
+                0x100005cc       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x100005cc                lock_init
  .text.runtime_init_mutex
-                0x100005ec       0x50 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x100005ec                runtime_init_mutex
+                0x100005dc       0x50 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100005dc                runtime_init_mutex
  .text.sleep_until_callback
-                0x1000063c       0x30 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000062c       0x30 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_irq_handler
-                0x1000066c      0x300 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000065c      0x300 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
  .text.runtime_init_default_alarm_pool
-                0x1000096c       0xdc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000096c                runtime_init_default_alarm_pool
+                0x1000095c       0xdc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000095c                runtime_init_default_alarm_pool
  .text.alarm_pool_add_alarm_at_force_in_context
-                0x10000a48       0xb0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000a48                alarm_pool_add_alarm_at_force_in_context
+                0x10000a38       0xb0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000a38                alarm_pool_add_alarm_at_force_in_context
  .text.alarm_pool_cancel_alarm
-                0x10000af8       0x74 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000af8                alarm_pool_cancel_alarm
+                0x10000ae8       0x74 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000ae8                alarm_pool_cancel_alarm
  .text.sleep_ms
-                0x10000b6c       0xfc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000b6c                sleep_ms
+                0x10000b5c       0xfc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000b5c                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10000c68      0x10c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000c68                best_effort_wfe_or_timeout
+                0x10000c58      0x10c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000c58                best_effort_wfe_or_timeout
  .text.timer_hardware_alarm_claim
-                0x10000d74       0x14 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000d74                timer_hardware_alarm_claim
+                0x10000d64       0x14 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000d64                timer_hardware_alarm_claim
  .text.timer_time_us_64
-                0x10000d88       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000d88                timer_time_us_64
+                0x10000d78       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000d78                timer_time_us_64
  .text.time_us_64
-                0x10000d98       0x14 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000d98                time_us_64
+                0x10000d88       0x14 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000d88                time_us_64
  .text.busy_wait_until
-                0x10000dac       0x20 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000dac                busy_wait_until
+                0x10000d9c       0x20 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000d9c                busy_wait_until
  .text.clock_configure_int_divider
-                0x10000dcc       0xf4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10000dcc                clock_configure_int_divider
+                0x10000dbc       0xf4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10000dbc                clock_configure_int_divider
  .text.clock_configure_undivided
-                0x10000ec0       0xe8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10000ec0                clock_configure_undivided
+                0x10000eb0       0xe8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10000eb0                clock_configure_undivided
  .text.clock_get_hz
-                0x10000fa8        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10000fa8                clock_get_hz
+                0x10000f98        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10000f98                clock_get_hz
  .text.pll_init
-                0x10000fb4       0xa4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10000fb4                pll_init
+                0x10000fa4       0xa4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10000fa4                pll_init
  .text.tick_start
-                0x10001058       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
-                0x10001058                tick_start
+                0x10001048       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+                0x10001048                tick_start
  .text.rom_func_lookup
-                0x10001068       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001068                rom_func_lookup
+                0x10001058       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001058                rom_func_lookup
  .text.rom_data_lookup
-                0x10001078       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001078                rom_data_lookup
+                0x10001068       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001068                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10001088       0x44 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001088                rom_funcs_lookup
+                0x10001078       0x44 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001078                rom_funcs_lookup
  .text.xosc_init
-                0x100010cc       0x28 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x100010cc                xosc_init
+                0x100010bc       0x28 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x100010bc                xosc_init
  .text.first_per_core_initializer
-                0x100010f4        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100010e4        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .text.hard_assertion_failure
-                0x100010f8        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100010f8                hard_assertion_failure
+                0x100010e8        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100010e8                hard_assertion_failure
  .text.runtime_run_initializers
-                0x10001104       0x28 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001104                runtime_run_initializers
+                0x100010f4       0x28 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100010f4                runtime_run_initializers
  .text.runtime_init_early_resets
-                0x1000112c       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x1000112c                runtime_init_early_resets
+                0x1000111c       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x1000111c                runtime_init_early_resets
  .text.runtime_init_usb_power_down
-                0x10001158       0x1c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001158                runtime_init_usb_power_down
+                0x10001148       0x1c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001148                runtime_init_usb_power_down
  .text.runtime_init_post_clock_resets
-                0x10001174       0x20 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001174                runtime_init_post_clock_resets
+                0x10001164       0x20 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001164                runtime_init_post_clock_resets
  .text.runtime_init_rp2040_gpio_ie_disable
-                0x10001194       0x14 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001194                runtime_init_rp2040_gpio_ie_disable
+                0x10001184       0x14 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001184                runtime_init_rp2040_gpio_ie_disable
  .text.runtime_init_spin_locks_reset
-                0x100011a8        0x8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100011a8                runtime_init_spin_locks_reset
+                0x10001198        0x8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001198                runtime_init_spin_locks_reset
  .text.runtime_init_install_ram_vector_table
-                0x100011b0       0xb4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100011b0                runtime_init_install_ram_vector_table
+                0x100011a0       0xb4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x100011a0                runtime_init_install_ram_vector_table
  .text.runtime_init_clocks
-                0x10001264       0xd8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
-                0x10001264                runtime_init_clocks
- .text          0x1000133c       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10001254       0xd8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+                0x10001254                runtime_init_clocks
+ .text          0x1000132c       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.__wrap___aeabi_idiv
-                0x1000134c       0x50 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
-                0x1000134c                __wrap___aeabi_idivmod
-                0x1000134c                divmod_s32s32
-                0x1000134c                div_s32s32
-                0x1000134c                __wrap___aeabi_idiv
-                0x10001354                divmod_s32s32_unsafe
-                0x10001380                divmod_s32s32_savestate
+                0x1000133c       0x50 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x1000133c                __wrap___aeabi_idivmod
+                0x1000133c                divmod_s32s32
+                0x1000133c                div_s32s32
+                0x1000133c                __wrap___aeabi_idiv
+                0x10001344                divmod_s32s32_unsafe
+                0x10001370                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x1000139c       0x4c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
-                0x1000139c                __wrap___aeabi_uidiv
-                0x1000139c                __wrap___aeabi_uidivmod
-                0x1000139c                div_u32u32
-                0x1000139c                divmod_u32u32
-                0x100013a4                divmod_u32u32_unsafe
-                0x100013cc                divmod_u32u32_savestate
- .text.push_r8_r11
-                0x100013e8        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x100013e8                push_r8_r11
- .text.pop_r8_r11
-                0x100013f4        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x100013f4                pop_r8_r11
+                0x1000138c       0x4c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x1000138c                __wrap___aeabi_uidiv
+                0x1000138c                __wrap___aeabi_uidivmod
+                0x1000138c                div_u32u32
+                0x1000138c                divmod_u32u32
+                0x10001394                divmod_u32u32_unsafe
+                0x100013bc                divmod_u32u32_savestate
  .text.__wrap___aeabi_darithmetic
-                0x10001400       0x80 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10001400                __wrap___aeabi_drsub
-                0x10001406                __wrap___aeabi_dsub
-                0x10001418                __wrap___aeabi_dadd
-                0x1000142a                __wrap___aeabi_ddiv
-                0x10001466                __wrap___aeabi_dmul
+                0x100013d8       0x80 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x100013d8                __wrap___aeabi_drsub
+                0x100013de                __wrap___aeabi_dsub
+                0x100013f0                __wrap___aeabi_dadd
+                0x10001402                __wrap___aeabi_ddiv
+                0x1000143e                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x10001480       0x6c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10001480                __wrap___aeabi_cdrcmple
-                0x10001490                __wrap___aeabi_cdcmpeq
-                0x10001490                __wrap___aeabi_cdcmple
+                0x10001458       0x6c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10001458                __wrap___aeabi_cdrcmple
+                0x10001468                __wrap___aeabi_cdcmpeq
+                0x10001468                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmpge
-                0x100014ec       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x100014ec                __wrap___aeabi_dcmpge
- .text.__wrap___aeabi_d2uiz
-                0x100014fc       0x18 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x100014fc                double2uint
-                0x100014fc                __wrap___aeabi_d2uiz
-                0x100014fc                double2uint_z
- .text.fix642double
-                0x10001514       0x18 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10001514                fix642double
+                0x100014c4       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x100014c4                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_d2f
-                0x1000152c       0x18 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x1000152c                __wrap___aeabi_d2f
- .text.__wrap_sincostan_remainder
-                0x10001544       0x14 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10001544                sincostan_remainder
- .text.__wrap_cos
-                0x10001558       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10001558                __wrap_cos
- .text.__wrap_sin
-                0x10001584       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10001584                __wrap_sin
+                0x100014d4       0x18 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x100014d4                __wrap___aeabi_d2f
  .text.__aeabi_double_init
-                0x100015b0       0xa4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
-                0x100015b0                __aeabi_double_init
- .text.__wrap_remquo
-                0x10001654      0x2a0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-                0x10001654                __wrap_remquo
- .text.__wrap_remainder
-                0x100018f4       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-                0x100018f4                __wrap_remainder
+                0x100014ec       0xa4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x100014ec                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10001904       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10001904                double_table_shim_on_use_helper
+                0x10001590       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x10001590                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x10001930       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10001930                drsub_shim
-                0x10001936                dsub_shim
+                0x100015bc       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x100015bc                drsub_shim
+                0x100015c2                dsub_shim
  .text.dadd_shim
-                0x10001940      0x15c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10001940                dadd_shim
+                0x100015cc      0x15c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x100015cc                dadd_shim
  .text.dmul_shim
-                0x10001a9c      0x15c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10001a9c                dmul_shim
+                0x10001728      0x15c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x10001728                dmul_shim
  .text.ddiv_shim
-                0x10001bf8      0x1b0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10001bf8                ddiv_shim
- .text.dcordic_vec_step
-                0x10001da8        0xe CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10001da8                dcordic_vec_step
- .text.dcordic_rot_step
-                0x10001db6       0x76 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10001db6                dcordic_rot_step
- .text.double2uint_shim
-                0x10001e2c        0xe CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10001e2c                double2uint_shim
-                0x10001e2e                double2ufix_shim
- .text.double2int64_shim
-                0x10001e3a       0x1a CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10001e3a                double2int64_shim
-                0x10001e3c                double2fix64_shim
- .text.double2uint64_shim
-                0x10001e54       0x70 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10001e54                double2uint64_shim
-                0x10001e56                double2ufix64_shim
-                0x10001e76                d2fix_a
+                0x10001884      0x1b0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x10001884                ddiv_shim
  .text.double2float_shim
-                0x10001ec4       0x5c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10001ec4                double2float_shim
- .text.x2double_shims
-                0x10001f20       0x90 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10001f20                uint2double_shim
-                0x10001f22                ufix2double_shim
-                0x10001f28                int2double_shim
-                0x10001f2a                fix2double_shim
-                0x10001f30                uint642double_shim
-                0x10001f32                ufix642double_shim
-                0x10001f38                int642double_shim
-                0x10001f3a                fix642double_shim
- .text.dunpacks
-                0x10001fb0       0x3c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10001fb0                dunpacks
- .text.dreduce  0x10001fec       0x82 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10001fec                dreduce
- .text.dcos_shim
-                0x1000206e       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x1000206e                dcos_shim
- .text.dsin_shim
-                0x1000207e       0x14 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x1000207e                dsin_shim
- *fill*         0x10002092        0x2 
- .text.dtrig_guts
-                0x10002094      0x2ec CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x1000216c                datan2_shim
+                0x10001a34       0x5c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x10001a34                double2float_shim
  .text.__aeabi_lmul
-                0x10002380       0x32 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10002380                __wrap___aeabi_lmul
- *fill*         0x100023b2        0x2 
+                0x10001a90       0x32 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10001a90                __wrap___aeabi_lmul
+ *fill*         0x10001ac2        0x2 
  .text.__wrap___aeabi_farithmetic
-                0x100023b4       0x48 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-                0x100023b4                __wrap___aeabi_frsub
-                0x100023ba                __wrap___aeabi_fsub
-                0x100023c0                __wrap___aeabi_fadd
-                0x100023c6                __wrap___aeabi_fdiv
-                0x100023ee                __wrap___aeabi_fmul
+                0x10001ac4       0x48 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x10001ac4                __wrap___aeabi_frsub
+                0x10001aca                __wrap___aeabi_fsub
+                0x10001ad0                __wrap___aeabi_fadd
+                0x10001ad6                __wrap___aeabi_fdiv
+                0x10001afe                __wrap___aeabi_fmul
  .text.__wrap___aeabi_f2d
-                0x100023fc       0x14 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-                0x100023fc                __wrap___aeabi_f2d
+                0x10001b0c       0x14 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x10001b0c                __wrap___aeabi_f2d
  .text.__aeabi_float_init
-                0x10002410       0x64 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
-                0x10002410                __aeabi_float_init
+                0x10001b20       0x64 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x10001b20                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x10002474       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
-                0x10002474                float_table_shim_on_use_helper
+                0x10001b84       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+                0x10001b84                float_table_shim_on_use_helper
  .text.float2double_shim
-                0x100024a0       0x30 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
-                0x100024a0                float2double_shim
- .text          0x100024d0       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100024d0                __aeabi_mem_init
- .text.memcpy   0x100024e0        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100024e0                __wrap_memcpy
-                0x100024e0                __wrap___aeabi_memcpy
+                0x10001bb0       0x30 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+                0x10001bb0                float2double_shim
+ .text          0x10001be0       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10001be0                __aeabi_mem_init
+ .text.memcpy   0x10001bf0        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10001bf0                __wrap_memcpy
+                0x10001bf0                __wrap___aeabi_memcpy
  .text._out_char
-                0x100024ec       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001bfc       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x100024fc       0x30 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x100024fc                weak_raw_vprintf
- .text._exit    0x1000252c        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x1000252c                _exit
- .text.exit     0x10002530        0x8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x10002530                exit
+                0x10001c0c       0x30 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001c0c                weak_raw_vprintf
+ .text._exit    0x10001c3c        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x10001c3c                _exit
+ .text.exit     0x10001c40        0x8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x10001c40                exit
  .text.runtime_init
-                0x10002538       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x10002538                runtime_init
+                0x10001c48       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x10001c48                runtime_init
  .text.stdio_out_chars_no_crlf
-                0x10002564       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001c74       0x10 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x10002574       0xb0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001c84       0xb0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string
-                0x10002624       0xfc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10002624                stdio_put_string
+                0x10001d34       0xfc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001d34                stdio_put_string
  .text.__wrap_putchar
-                0x10002720       0x94 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10002720                __wrap_putchar
-                0x10002720                stdio_putchar
+                0x10001e30       0x94 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001e30                __wrap_putchar
+                0x10001e30                stdio_putchar
  .text.__wrap_puts
-                0x100027b4       0x3c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100027b4                stdio_puts
-                0x100027b4                __wrap_puts
- .text.strlen   0x100027f0       0x5c C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
-                0x100027f0                strlen
+                0x10001ec4       0x3c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001ec4                stdio_puts
+                0x10001ec4                __wrap_puts
+ .text.strlen   0x10001f00       0x5c C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
+                0x10001f00                strlen
  *(.fini)
- .fini          0x1000284c        0x4 C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crti.o
-                0x1000284c                _fini
- .fini.__stub   0x10002850       0x30 linker stubs
+ .fini          0x10001f5c        0x4 C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crti.o
+                0x10001f5c                _fini
+ .fini.__stub   0x10001f60       0x30 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2835,143 +2815,143 @@ LOAD C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x10002880                        . = ALIGN (0x4)
-                0x10002880                        PROVIDE (__preinit_array_start = .)
+                0x10001f90                        . = ALIGN (0x4)
+                0x10001f90                        PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  .preinit_array.00100
-                0x10002880        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10002880                __pre_init_runtime_init_early_resets
+                0x10001f90        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001f90                __pre_init_runtime_init_early_resets
  .preinit_array.00101
-                0x10002884        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10002884                __pre_init_runtime_init_usb_power_down
+                0x10001f94        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001f94                __pre_init_runtime_init_usb_power_down
  .preinit_array.00275
-                0x10002888        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10001f98        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .preinit_array.00300
-                0x1000288c        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10001f9c        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .preinit_array.00350
-                0x10002890        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10001fa0        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .preinit_array.00350
-                0x10002894        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x10001fa4        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .preinit_array.00500
-                0x10002898        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10002898                __pre_init_runtime_init_clocks
+                0x10001fa8        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001fa8                __pre_init_runtime_init_clocks
  .preinit_array.00600
-                0x1000289c        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x1000289c                __pre_init_runtime_init_post_clock_resets
+                0x10001fac        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001fac                __pre_init_runtime_init_post_clock_resets
  .preinit_array.00700
-                0x100028a0        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100028a0                __pre_init_runtime_init_rp2040_gpio_ie_disable
+                0x10001fb0        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001fb0                __pre_init_runtime_init_rp2040_gpio_ie_disable
  .preinit_array.01000
-                0x100028a4        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100028a4                __pre_init_runtime_init_spin_locks_reset
+                0x10001fb4        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001fb4                __pre_init_runtime_init_spin_locks_reset
  .preinit_array.01100
-                0x100028a8        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x100028a8                __pre_init_runtime_init_mutex
+                0x10001fb8        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10001fb8                __pre_init_runtime_init_mutex
  .preinit_array.10080
-                0x100028ac        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100028ac                __pre_init_runtime_init_install_ram_vector_table
+                0x10001fbc        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001fbc                __pre_init_runtime_init_install_ram_vector_table
  .preinit_array.11000
-                0x100028b0        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
-                0x100028b0                __pre_init_runtime_init_default_alarm_pool
+                0x10001fc0        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001fc0                __pre_init_runtime_init_default_alarm_pool
  .preinit_array.YYYYY
-                0x100028b4        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100028b4                __pre_init_first_per_core_initializer
+                0x10001fc4        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001fc4                __pre_init_first_per_core_initializer
  .preinit_array.ZZZZZ.01200
-                0x100028b8        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100028b8                __pre_init_runtime_init_per_core_irq_priorities
+                0x10001fc8        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001fc8                __pre_init_runtime_init_per_core_irq_priorities
  *(.preinit_array)
-                0x100028bc                        PROVIDE (__preinit_array_end = .)
-                0x100028bc                        . = ALIGN (0x4)
-                0x100028bc                        PROVIDE (__init_array_start = .)
+                0x10001fcc                        PROVIDE (__preinit_array_end = .)
+                0x10001fcc                        . = ALIGN (0x4)
+                0x10001fcc                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x100028bc        0x4 C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x100028c0                        PROVIDE (__init_array_end = .)
-                0x100028c0                        . = ALIGN (0x4)
+ .init_array    0x10001fcc        0x4 C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x10001fd0                        PROVIDE (__init_array_end = .)
+                0x10001fd0                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
                 [!provide]                        PROVIDE (__fini_array_end = .)
  *(.eh_frame*)
- .eh_frame      0x100028c0        0x0 C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x100028c0                        . = ALIGN (0x4)
+ .eh_frame      0x10001fd0        0x0 C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x10001fd0                        . = ALIGN (0x4)
 
-.glue_7         0x100028c0        0x0
- .glue_7        0x100028c0        0x0 linker stubs
+.glue_7         0x10001fd0        0x0
+ .glue_7        0x10001fd0        0x0 linker stubs
 
-.glue_7t        0x100028c0        0x0
- .glue_7t       0x100028c0        0x0 linker stubs
+.glue_7t        0x10001fd0        0x0
+ .glue_7t       0x10001fd0        0x0 linker stubs
 
-.vfp11_veneer   0x100028c0        0x0
- .vfp11_veneer  0x100028c0        0x0 linker stubs
+.vfp11_veneer   0x10001fd0        0x0
+ .vfp11_veneer  0x10001fd0        0x0 linker stubs
 
-.v4_bx          0x100028c0        0x0
- .v4_bx         0x100028c0        0x0 linker stubs
+.v4_bx          0x10001fd0        0x0
+ .v4_bx         0x10001fd0        0x0 linker stubs
 
-.iplt           0x100028c0        0x0
- .iplt          0x100028c0        0x0 C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10001fd0        0x0
+ .iplt          0x10001fd0        0x0 C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x100028c0       0xe0
+.rodata         0x10001fd0       0xe0
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.panic.str1.4
-                0x100028c0       0x88 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x10001fd0       0x88 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
                                  0x12 (size before relaxing)
  .rodata.timer_hardware_alarm_claim.str1.4
-                0x10002948       0x22 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10002058       0x22 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.hard_assertion_failure.str1.4
-                0x10002948        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002058        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.str1.4
-                0x10002948       0x44 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10002058       0x44 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_84
-                0x10002948        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10002058        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_78
-                0x10002954        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10002064        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_54
-                0x10002960        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10002070        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_48
-                0x1000296c        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1000207c        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_42
-                0x10002978        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10002088        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_34
-                0x10002984        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10002094        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_26
-                0x10002990        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100020a0        0xc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.crlf_str.0
-                0x1000299c        0x2 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100029a0                        . = ALIGN (0x4)
- *fill*         0x1000299e        0x2 
+                0x100020ac        0x2 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100020b0                        . = ALIGN (0x4)
+ *fill*         0x100020ae        0x2 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x100029a0                        . = ALIGN (0x4)
+                0x100020b0                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x100029a0                        __exidx_start = .
+                0x100020b0                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x100029a0                        __exidx_end = .
-                0x100029a0                        . = ALIGN (0x4)
-                0x100029a0                        __binary_info_start = .
+                0x100020b0                        __exidx_end = .
+                0x100020b0                        . = ALIGN (0x4)
+                0x100020b0                        __binary_info_start = .
 
-.binary_info    0x100029a0       0x1c
+.binary_info    0x100020b0       0x1c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr84
-                0x100029a0        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100020b0        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr78
-                0x100029a4        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100020b4        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr54
-                0x100029a8        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100020b8        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr48
-                0x100029ac        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100020bc        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr42
-                0x100029b0        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100020c0        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr34
-                0x100029b4        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100020c4        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr26
-                0x100029b8        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100020c8        0x4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  *(.binary_info.*)
-                0x100029bc                        __binary_info_end = .
-                0x100029bc                        . = ALIGN (0x4)
+                0x100020cc                        __binary_info_end = .
+                0x100020cc                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -2985,7 +2965,7 @@ LOAD C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb
                 0x200000c0                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.data           0x200000c0      0x128 load address 0x100029bc
+.data           0x200000c0      0x128 load address 0x100020cc
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -3032,23 +3012,23 @@ LOAD C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb
                 0x200001e8                        . = ALIGN (0x4)
 
 .tm_clone_table
-                0x200001e8        0x0 load address 0x10002ae4
+                0x200001e8        0x0 load address 0x100021f4
  .tm_clone_table
                 0x200001e8        0x0 C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x200001e8        0x0 C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x200001e8        0x0 load address 0x10002ae4
+.igot.plt       0x200001e8        0x0 load address 0x100021f4
  .igot.plt      0x200001e8        0x0 C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.tdata          0x200001e8        0x0 load address 0x10002ae4
+.tdata          0x200001e8        0x0 load address 0x100021f4
                 0x200001e8                        . = ALIGN (0x4)
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x200001e8                        __tdata_end = .
                 0x200001e8                        PROVIDE (__data_end__ = .)
-                0x100029bc                        __etext = LOADADDR (.data)
+                0x100020cc                        __etext = LOADADDR (.data)
 
-.tbss           0x200001e8        0x0 load address 0x10002ae4
+.tbss           0x200001e8        0x0 load address 0x100021f4
                 0x200001e8                        . = ALIGN (0x4)
                 0x200001e8                        __bss_start__ = .
                 0x200001e8                        __tls_base = .
@@ -3056,7 +3036,7 @@ LOAD C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb
  *(.tcommon)
                 0x200001e8                        __tls_end = .
 
-.bss            0x200001e8      0x3e8 load address 0x10002ae4
+.bss            0x200001e8      0x3e8 load address 0x100021f4
                 0x200001e8                        . = ALIGN (0x4)
                 0x200001e8                        __tbss_end = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
@@ -3085,26 +3065,26 @@ LOAD C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb
                 0x200005d0                        . = ALIGN (0x4)
                 0x200005d0                        __bss_end__ = .
 
-.heap           0x200005d0      0x800 load address 0x10002ae4
+.heap           0x200005d0      0x800 load address 0x100021f4
                 0x200005d0                        __end__ = .
                 0x200005d0                        end = __end__
  *(.heap*)
  .heap          0x200005d0      0x800 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
                 0x20040000                        __HeapLimit = (ORIGIN (RAM) + LENGTH (RAM))
 
-.scratch_x      0x20040000        0x0 load address 0x10002ae4
+.scratch_x      0x20040000        0x0 load address 0x100021f4
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x10002ae4                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x100021f4                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10002ae4
+.scratch_y      0x20041000        0x0 load address 0x100021f4
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x10002ae4                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x100021f4                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .stack1_dummy
  *(.stack1*)
@@ -3116,9 +3096,9 @@ LOAD C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb
 .rel.dyn        0x20041800        0x0
  .rel.iplt      0x20041800        0x0 C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.flash_end      0x10002ae4        0x0
+.flash_end      0x100021f4        0x0
  *(.embedded_end_block*)
-                0x10002ae4                        PROVIDE (__flash_binary_end = .)
+                0x100021f4                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -3263,37 +3243,35 @@ LOAD linker stubs
  .ARM.attributes
                 0x000003f4       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .ARM.attributes
-                0x00000420       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x00000420       0x22 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
  .ARM.attributes
-                0x0000044c       0x22 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x00000442       0x22 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .ARM.attributes
-                0x0000046e       0x22 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x00000464       0x22 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .ARM.attributes
-                0x00000490       0x22 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x00000486       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .ARM.attributes
-                0x000004b2       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x000004b2       0x22 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
  .ARM.attributes
-                0x000004de       0x22 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+                0x000004d4       0x22 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .ARM.attributes
-                0x00000500       0x22 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x000004f6       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .ARM.attributes
-                0x00000522       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x00000522       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .ARM.attributes
-                0x0000054e       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000054e       0x22 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
  .ARM.attributes
-                0x0000057a       0x22 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+                0x00000570       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .ARM.attributes
-                0x0000059c       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x0000059c       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .ARM.attributes
-                0x000005c8       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x000005c8       0x22 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/./bs2_default_padded_checksummed.S.obj
  .ARM.attributes
-                0x000005f4       0x22 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/./bs2_default_padded_checksummed.S.obj
+                0x000005ea       0x1e C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x00000616       0x1e C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x00000608       0x2c C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
  .ARM.attributes
-                0x00000634       0x2c C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
- .ARM.attributes
-                0x00000660       0x2c C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
+                0x00000634       0x2c C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
 
 .comment        0x00000000       0x45
  .comment       0x00000000       0x45 CMakeFiles/rp2040_pwm_led.dir/main.c.obj
@@ -3317,139 +3295,134 @@ LOAD linker stubs
  .comment       0x00000045       0x46 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
  .comment       0x00000045       0x46 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
  .comment       0x00000045       0x46 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .comment       0x00000045       0x46 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .comment       0x00000045       0x46 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .comment       0x00000045       0x46 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .comment       0x00000045       0x46 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .comment       0x00000045       0x46 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .comment       0x00000045       0x46 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
-.debug_info     0x00000000    0x1e78e
- .debug_info    0x00000000      0xb89 CMakeFiles/rp2040_pwm_led.dir/main.c.obj
- .debug_info    0x00000b89     0x2421 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x00002faa      0x1bf CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_info    0x00003169      0x9a1 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/hardware_claim/claim.c.obj
- .debug_info    0x00003b0a      0x45c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x00003f66      0x245 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_info    0x000041ab     0x2233 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x000063de      0x15f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x0000653d     0x2815 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_info    0x00008d52     0x5065 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
- .debug_info    0x0000ddb7     0x2b37 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x000108ee     0x2a05 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x000132f3      0x4e5 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x000137d8      0x248 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_info    0x00013a20      0x678 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x00014098      0x1d0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x00014268      0x21a CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x00014482      0x7ea CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_info    0x00014c6c      0x781 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_info    0x000153ed       0x23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x00015410       0x23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_info    0x00015433       0x23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_info    0x00015456      0x27e CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_info    0x000156d4     0x3e71 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .debug_info    0x00019545       0x23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_info    0x00019568       0x24 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x0001958c       0x23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_info    0x000195af      0x27e CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_info    0x0001982d       0x23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
- .debug_info    0x00019850       0x23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x00019873      0x2b8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_info    0x00019b2b     0x22f2 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x0001be1d       0x23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_info    0x0001be40      0xbbe CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_info    0x0001c9fe     0x1d90 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.debug_info     0x00000000    0x1adb4
+ .debug_info    0x00000000     0x1020 CMakeFiles/rp2040_pwm_led.dir/main.c.obj
+ .debug_info    0x00001020     0x2421 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x00003441      0x1bf CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_info    0x00003600      0x9a1 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/hardware_claim/claim.c.obj
+ .debug_info    0x00003fa1      0x45c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x000043fd      0x245 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_info    0x00004642     0x2233 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x00006875      0x15f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x000069d4     0x2815 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x000091e9     0x5065 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_info    0x0000e24e     0x2b37 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x00010d85     0x2a05 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x0001378a      0x4e5 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x00013c6f      0x248 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_info    0x00013eb7      0x678 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x0001452f      0x1d0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x000146ff      0x21a CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x00014919      0x7ea CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_info    0x00015103      0x781 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_info    0x00015884       0x23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x000158a7       0x23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_info    0x000158ca       0x23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_info    0x000158ed      0x27e CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_info    0x00015b6b       0x23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_info    0x00015b8e       0x24 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x00015bb2       0x23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_info    0x00015bd5      0x27e CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_info    0x00015e53       0x23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+ .debug_info    0x00015e76       0x23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x00015e99      0x2b8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_info    0x00016151     0x22f2 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x00018443       0x23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_info    0x00018466      0xbbe CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_info    0x00019024     0x1d90 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
-.debug_abbrev   0x00000000     0x4e42
- .debug_abbrev  0x00000000      0x2f3 CMakeFiles/rp2040_pwm_led.dir/main.c.obj
- .debug_abbrev  0x000002f3      0x4f9 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_abbrev  0x000007ec      0x12b CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_abbrev  0x00000917      0x328 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/hardware_claim/claim.c.obj
- .debug_abbrev  0x00000c3f      0x20f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_abbrev  0x00000e4e      0x1bb CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_abbrev  0x00001009      0x614 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_abbrev  0x0000161d       0xee CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_abbrev  0x0000170b      0x48c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_abbrev  0x00001b97      0x659 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
- .debug_abbrev  0x000021f0      0x4f2 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_abbrev  0x000026e2      0x512 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_abbrev  0x00002bf4      0x1d2 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_abbrev  0x00002dc6      0x145 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_abbrev  0x00002f0b      0x1bc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_abbrev  0x000030c7      0x11d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_abbrev  0x000031e4      0x182 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_abbrev  0x00003366      0x26b CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_abbrev  0x000035d1      0x2af CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_abbrev  0x00003880       0x12 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_abbrev  0x00003892       0x12 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_abbrev  0x000038a4       0x12 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_abbrev  0x000038b6      0x17a CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_abbrev  0x00003a30      0x342 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .debug_abbrev  0x00003d72       0x12 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_abbrev  0x00003d84       0x14 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_abbrev  0x00003d98       0x12 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_abbrev  0x00003daa      0x173 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_abbrev  0x00003f1d       0x12 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
- .debug_abbrev  0x00003f2f       0x12 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_abbrev  0x00003f41       0xb8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_abbrev  0x00003ff9      0x50c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_abbrev  0x00004505       0x12 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_abbrev  0x00004517      0x352 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_abbrev  0x00004869      0x5d9 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.debug_abbrev   0x00000000     0x4b2e
+ .debug_abbrev  0x00000000      0x321 CMakeFiles/rp2040_pwm_led.dir/main.c.obj
+ .debug_abbrev  0x00000321      0x4f9 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_abbrev  0x0000081a      0x12b CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_abbrev  0x00000945      0x328 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/hardware_claim/claim.c.obj
+ .debug_abbrev  0x00000c6d      0x20f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_abbrev  0x00000e7c      0x1bb CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_abbrev  0x00001037      0x614 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_abbrev  0x0000164b       0xee CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_abbrev  0x00001739      0x48c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_abbrev  0x00001bc5      0x659 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_abbrev  0x0000221e      0x4f2 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_abbrev  0x00002710      0x512 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_abbrev  0x00002c22      0x1d2 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_abbrev  0x00002df4      0x145 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_abbrev  0x00002f39      0x1bc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_abbrev  0x000030f5      0x11d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_abbrev  0x00003212      0x182 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_abbrev  0x00003394      0x26b CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_abbrev  0x000035ff      0x2af CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_abbrev  0x000038ae       0x12 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_abbrev  0x000038c0       0x12 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_abbrev  0x000038d2       0x12 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_abbrev  0x000038e4      0x17a CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_abbrev  0x00003a5e       0x12 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_abbrev  0x00003a70       0x14 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_abbrev  0x00003a84       0x12 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_abbrev  0x00003a96      0x173 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_abbrev  0x00003c09       0x12 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+ .debug_abbrev  0x00003c1b       0x12 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_abbrev  0x00003c2d       0xb8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_abbrev  0x00003ce5      0x50c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_abbrev  0x000041f1       0x12 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_abbrev  0x00004203      0x352 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_abbrev  0x00004555      0x5d9 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 .debug_loclists
-                0x00000000    0x142f4
+                0x00000000    0x1010f
  .debug_loclists
-                0x00000000      0x3f8 CMakeFiles/rp2040_pwm_led.dir/main.c.obj
+                0x00000000      0x60d CMakeFiles/rp2040_pwm_led.dir/main.c.obj
  .debug_loclists
-                0x000003f8     0x1a7f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000060d     0x1a7f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_loclists
-                0x00001e77      0x349 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/hardware_claim/claim.c.obj
+                0x0000208c      0x349 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/hardware_claim/claim.c.obj
  .debug_loclists
-                0x000021c0      0x108 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x000023d5      0x108 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .debug_loclists
-                0x000022c8       0x7d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+                0x000024dd       0x7d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
  .debug_loclists
-                0x00002345     0x11ed CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000255a     0x11ed CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .debug_loclists
-                0x00003532       0x41 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x00003747       0x41 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/lock_core.c.obj
  .debug_loclists
-                0x00003573      0xaec CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x00003788      0xaec CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
  .debug_loclists
-                0x0000405f     0x27af CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
+                0x00004274     0x27af CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
  .debug_loclists
-                0x0000680e     0x19f1 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00006a23     0x19f1 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .debug_loclists
-                0x000081ff     0x2b7c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00008414     0x2b7c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .debug_loclists
-                0x0000ad7b      0x1e0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000af90      0x1e0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .debug_loclists
-                0x0000af5b       0x47 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+                0x0000b170       0x47 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
  .debug_loclists
-                0x0000afa2      0x351 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000b1b7      0x351 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
  .debug_loclists
-                0x0000b2f3       0x48 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000b508       0x48 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
  .debug_loclists
-                0x0000b33b       0x7e CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000b550       0x7e CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .debug_loclists
-                0x0000b3b9      0x139 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x0000b5ce      0x139 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
  .debug_loclists
-                0x0000b4f2       0x74 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+                0x0000b707       0x74 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
  .debug_loclists
-                0x0000b566       0x3d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x0000b77b       0x3d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .debug_loclists
-                0x0000b5a3     0x43fa CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000b7b8       0x59 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .debug_loclists
-                0x0000f99d       0x59 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x0000b811     0x355f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .debug_loclists
-                0x0000f9f6     0x355f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000ed70      0x44e CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .debug_loclists
-                0x00012f55      0x44e CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_loclists
-                0x000133a3      0xf51 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000f1be      0xf51 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
-.debug_aranges  0x00000000      0xf90
+.debug_aranges  0x00000000      0xe68
  .debug_aranges
                 0x00000000       0x20 CMakeFiles/rp2040_pwm_led.dir/main.c.obj
  .debug_aranges
@@ -3497,201 +3470,194 @@ LOAD linker stubs
  .debug_aranges
                 0x00000940       0x20 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .debug_aranges
-                0x00000960      0x128 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x00000960       0xc8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
  .debug_aranges
-                0x00000a88       0xc8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x00000a28       0x20 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .debug_aranges
-                0x00000b50       0x20 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x00000a48      0x138 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .debug_aranges
-                0x00000b70      0x138 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x00000b80       0x20 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .debug_aranges
-                0x00000ca8       0x20 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x00000ba0       0x50 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
  .debug_aranges
-                0x00000cc8       0x50 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+                0x00000bf0       0x38 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .debug_aranges
-                0x00000d18       0x38 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00000c28       0x18 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .debug_aranges
-                0x00000d50       0x18 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x00000c40       0x90 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .debug_aranges
-                0x00000d68       0x90 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000cd0       0x28 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
  .debug_aranges
-                0x00000df8       0x28 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+                0x00000cf8       0xa8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .debug_aranges
-                0x00000e20       0xa8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_aranges
-                0x00000ec8       0xc8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000da0       0xc8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 .debug_rnglists
-                0x00000000     0x30bb
+                0x00000000     0x2b14
  .debug_rnglists
-                0x00000000       0xe8 CMakeFiles/rp2040_pwm_led.dir/main.c.obj
+                0x00000000       0xff CMakeFiles/rp2040_pwm_led.dir/main.c.obj
  .debug_rnglists
-                0x000000e8      0x5ca CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x000000ff      0x5ca CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_rnglists
-                0x000006b2       0x19 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x000006c9       0x19 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
  .debug_rnglists
-                0x000006cb       0xb6 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/hardware_claim/claim.c.obj
+                0x000006e2       0xb6 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/hardware_claim/claim.c.obj
  .debug_rnglists
-                0x00000781       0x58 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000798       0x58 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .debug_rnglists
-                0x000007d9       0x3d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+                0x000007f0       0x3d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
  .debug_rnglists
-                0x00000816      0x37d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000082d      0x37d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .debug_rnglists
-                0x00000b93       0x1f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x00000baa       0x1f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/lock_core.c.obj
  .debug_rnglists
-                0x00000bb2      0x325 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x00000bc9      0x325 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
  .debug_rnglists
-                0x00000ed7      0x7dc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000eee      0x7dc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
  .debug_rnglists
-                0x000016b3      0x2c6 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000016ca      0x2c6 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .debug_rnglists
-                0x00001979      0x5be CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00001990      0x5be CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .debug_rnglists
-                0x00001f37       0x5c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x00001f4e       0x5c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .debug_rnglists
-                0x00001f93       0x2b CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+                0x00001faa       0x2b CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
  .debug_rnglists
-                0x00001fbe      0x112 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00001fd5      0x112 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
  .debug_rnglists
-                0x000020d0       0x1f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x000020e7       0x1f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
  .debug_rnglists
-                0x000020ef       0x3d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00002106       0x3d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .debug_rnglists
-                0x0000212c       0x4a CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x00002143       0x4a CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
  .debug_rnglists
-                0x00002176       0x20 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+                0x0000218d       0x20 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
  .debug_rnglists
-                0x00002196       0x43 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x000021ad       0x43 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .debug_rnglists
-                0x000021d9       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x000021f0       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
  .debug_rnglists
-                0x00002205       0xf9 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x0000221c       0xf9 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .debug_rnglists
-                0x000022fe       0x14 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x00002315       0x14 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .debug_rnglists
-                0x00002312      0x5be CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x00002329       0x99 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
  .debug_rnglists
-                0x000028d0       0x99 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x000023c2       0xe5 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .debug_rnglists
-                0x00002969       0xe5 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x000024a7       0x13 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .debug_rnglists
-                0x00002a4e       0x13 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x000024ba       0x38 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
  .debug_rnglists
-                0x00002a61       0x38 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+                0x000024f2       0x25 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .debug_rnglists
-                0x00002a99       0x25 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00002517      0x2a2 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .debug_rnglists
-                0x00002abe      0x2a2 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x000027b9       0x1b CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
  .debug_rnglists
-                0x00002d60       0x1b CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+                0x000027d4       0x85 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .debug_rnglists
-                0x00002d7b       0x85 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_rnglists
-                0x00002e00      0x2bb CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00002859      0x2bb CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
-.debug_line     0x00000000    0x1799e
- .debug_line    0x00000000      0x62c CMakeFiles/rp2040_pwm_led.dir/main.c.obj
- .debug_line    0x0000062c     0x1bca CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x000021f6      0x230 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_line    0x00002426      0x858 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/hardware_claim/claim.c.obj
- .debug_line    0x00002c7e      0x450 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x000030ce      0x345 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_line    0x00003413     0x16f8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00004b0b      0x270 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00004d7b     0x1ac5 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x00006840     0x346c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x00009cac     0x1c87 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x0000b933     0x2083 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x0000d9b6      0x479 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x0000de2f      0x2cf CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_line    0x0000e0fe      0x424 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000e522      0x2ea CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x0000e80c      0x2b7 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x0000eac3      0x62f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_line    0x0000f0f2      0x4a7 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_line    0x0000f599      0x108 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0000f6a1      0x2a9 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_line    0x0000f94a      0x452 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_line    0x0000fd9c      0x42f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_line    0x000101cb     0x2cfc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .debug_line    0x00012ec7      0x66d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_line    0x00013534       0x61 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x00013595      0x3d2 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_line    0x00013967      0x344 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_line    0x00013cab      0x195 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
- .debug_line    0x00013e40       0x94 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x00013ed4      0x1a6 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_line    0x0001407a     0x1cb3 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x00015d2d       0xa2 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_line    0x00015dcf      0x815 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_line    0x000165e4     0x13ba CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.debug_line     0x00000000    0x14dbf
+ .debug_line    0x00000000      0x749 CMakeFiles/rp2040_pwm_led.dir/main.c.obj
+ .debug_line    0x00000749     0x1bca CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00002313      0x230 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_line    0x00002543      0x858 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/hardware_claim/claim.c.obj
+ .debug_line    0x00002d9b      0x450 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x000031eb      0x345 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_line    0x00003530     0x16f8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00004c28      0x270 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00004e98     0x1ac5 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x0000695d     0x346c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x00009dc9     0x1c87 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x0000ba50     0x2083 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x0000dad3      0x479 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x0000df4c      0x2cf CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_line    0x0000e21b      0x424 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000e63f      0x2ea CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x0000e929      0x2b7 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x0000ebe0      0x62f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_line    0x0000f20f      0x4a7 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_line    0x0000f6b6      0x108 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0000f7be      0x2a9 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_line    0x0000fa67      0x452 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_line    0x0000feb9      0x42f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_line    0x000102e8      0x66d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_line    0x00010955       0x61 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x000109b6      0x3d2 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_line    0x00010d88      0x344 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_line    0x000110cc      0x195 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+ .debug_line    0x00011261       0x94 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x000112f5      0x1a6 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_line    0x0001149b     0x1cb3 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0001314e       0xa2 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_line    0x000131f0      0x815 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_line    0x00013a05     0x13ba CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
-.debug_str      0x00000000     0x46e3
- .debug_str     0x00000000     0x46e3 CMakeFiles/rp2040_pwm_led.dir/main.c.obj
-                                0x677 (size before relaxing)
- .debug_str     0x000046e3      0xcbd CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_str     0x000046e3      0x1f5 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_str     0x000046e3      0x378 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/hardware_claim/claim.c.obj
- .debug_str     0x000046e3      0x321 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_str     0x000046e3      0x234 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_str     0x000046e3      0xab0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_str     0x000046e3      0x200 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_str     0x000046e3      0x7db CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_str     0x000046e3     0x11d7 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
- .debug_str     0x000046e3      0xa23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_str     0x000046e3      0xa06 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_str     0x000046e3      0x453 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_str     0x000046e3      0x282 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_str     0x000046e3      0x347 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_str     0x000046e3      0x237 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_str     0x000046e3      0x287 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_str     0x000046e3      0x7ba CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_str     0x000046e3      0x48f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_str     0x000046e3       0x8a CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_str     0x000046e3       0x8d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_str     0x000046e3       0x8f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_str     0x000046e3      0x2b0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_str     0x000046e3      0x510 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .debug_str     0x000046e3       0x95 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_str     0x000046e3       0x93 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_str     0x000046e3       0x8d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_str     0x000046e3      0x295 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_str     0x000046e3       0x93 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
- .debug_str     0x000046e3       0x8a CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_str     0x000046e3      0x3f6 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_str     0x000046e3      0x4d9 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_str     0x000046e3       0x7e CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_str     0x000046e3      0x770 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_str     0x000046e3      0xdae CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.debug_str      0x00000000     0x4472
+ .debug_str     0x00000000     0x4472 CMakeFiles/rp2040_pwm_led.dir/main.c.obj
+                                0x69e (size before relaxing)
+ .debug_str     0x00004472      0xcbd CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_str     0x00004472      0x1f5 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_str     0x00004472      0x378 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/hardware_claim/claim.c.obj
+ .debug_str     0x00004472      0x321 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_str     0x00004472      0x234 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_str     0x00004472      0xab0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_str     0x00004472      0x200 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_str     0x00004472      0x7db CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_str     0x00004472     0x11d7 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_str     0x00004472      0xa23 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_str     0x00004472      0xa06 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_str     0x00004472      0x453 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_str     0x00004472      0x282 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_str     0x00004472      0x347 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_str     0x00004472      0x237 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_str     0x00004472      0x287 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_str     0x00004472      0x7ba CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_str     0x00004472      0x48f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_str     0x00004472       0x8a CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_str     0x00004472       0x8d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_str     0x00004472       0x8f CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_str     0x00004472      0x2b0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_str     0x00004472       0x95 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_str     0x00004472       0x93 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_str     0x00004472       0x8d CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_str     0x00004472      0x295 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_str     0x00004472       0x93 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+ .debug_str     0x00004472       0x8a CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_str     0x00004472      0x3f6 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_str     0x00004472      0x4d9 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_str     0x00004472       0x7e CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_str     0x00004472      0x770 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_str     0x00004472      0xdae CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
-.debug_frame    0x00000000     0x1df0
- .debug_frame   0x00000000       0x3c CMakeFiles/rp2040_pwm_led.dir/main.c.obj
- .debug_frame   0x0000003c      0x320 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_frame   0x0000035c       0x44 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_frame   0x000003a0       0xa0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/hardware_claim/claim.c.obj
- .debug_frame   0x00000440       0xa8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_frame   0x000004e8       0x30 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_frame   0x00000518      0x1cc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_frame   0x000006e4       0x20 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_frame   0x00000704      0x1e8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_frame   0x000008ec      0x2ec CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
- .debug_frame   0x00000bd8      0x2c4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_frame   0x00000e9c      0x1f4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_frame   0x00001090       0x40 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_frame   0x000010d0       0x40 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_frame   0x00001110       0xa0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_frame   0x000011b0       0x40 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_frame   0x000011f0       0x70 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_frame   0x00001260       0x88 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_frame   0x000012e8       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_frame   0x00001314       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_frame   0x00001340      0x444 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .debug_frame   0x00001784       0x28 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_frame   0x000017ac      0x1f0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_frame   0x0000199c      0x184 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_frame   0x00001b20      0x2a8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_frame   0x00001dc8       0x28 C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
+.debug_frame    0x00000000     0x19a4
+ .debug_frame   0x00000000       0x34 CMakeFiles/rp2040_pwm_led.dir/main.c.obj
+ .debug_frame   0x00000034      0x320 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_frame   0x00000354       0x44 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_frame   0x00000398       0xa0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/hardware_claim/claim.c.obj
+ .debug_frame   0x00000438       0xa8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_frame   0x000004e0       0x30 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_frame   0x00000510      0x1cc CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_frame   0x000006dc       0x20 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_frame   0x000006fc      0x1e8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_frame   0x000008e4      0x2ec CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_frame   0x00000bd0      0x2c4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_frame   0x00000e94      0x1f4 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_frame   0x00001088       0x40 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_frame   0x000010c8       0x40 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_frame   0x00001108       0xa0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_frame   0x000011a8       0x40 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_frame   0x000011e8       0x70 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_frame   0x00001258       0x88 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_frame   0x000012e0       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_frame   0x0000130c       0x2c CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_frame   0x00001338       0x28 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_frame   0x00001360      0x1f0 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_frame   0x00001550      0x184 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_frame   0x000016d4      0x2a8 CMakeFiles/rp2040_pwm_led.dir/C_/dev/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_frame   0x0000197c       0x28 C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
 
 .debug_line_str
                 0x00000000      0x2ec

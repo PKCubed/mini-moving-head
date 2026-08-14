@@ -1,0 +1,2 @@
+C:\Strawberry\c\bin\ar.exe qc libbintool.a CMakeFiles/bintool.dir/bintool.cpp.obj
+C:\Strawberry\c\bin\ranlib.exe libbintool.a

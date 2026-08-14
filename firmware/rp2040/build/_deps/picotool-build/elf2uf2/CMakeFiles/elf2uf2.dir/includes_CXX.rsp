@@ -1,0 +1,1 @@
+-I"C:/Users/peter/Documents/GitHub/mini-moving-head/firmware/rp2040/build/_deps/picotool-src/elf2uf2" -I"C:/Users/peter/Documents/GitHub/mini-moving-head/firmware/rp2040/build/_deps/picotool-src/elf" -I"C:/Users/peter/Documents/GitHub/mini-moving-head/firmware/rp2040/build/_deps/picotool-src/errors" -isystem "C:/dev/pico-sdk/src/common/boot_uf2_headers/include"

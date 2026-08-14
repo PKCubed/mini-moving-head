@@ -1,0 +1,2 @@
+C:\Strawberry\c\bin\ar.exe qc libelf.a CMakeFiles/elf.dir/elf_file.cpp.obj
+C:\Strawberry\c\bin\ranlib.exe libelf.a
